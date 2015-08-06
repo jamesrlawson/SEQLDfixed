@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Placemark>
+<name>1. Stanley River at Cove Road</name>
+<Point><coordinates>152.772544,-26.919739,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>2. Burnett Creek downstream of gauge 145018a </name>
+<Point><coordinates>152.613778,-28.216333,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>3. Burnett Creek upstream of gauge 145018a</name>
+<Point><coordinates>152.604028,-28.227389,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name> 4. Nerang River at Grand Manor Golf Course</name>
+<Point><coordinates>153.302583,-28.022306,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name> 5. Coomera River at Coomera Scouts Hall</name>
+<Point><coordinates>153.189944,-28.046806,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>6. Nerang River at Weber Court near Chantrill Avenue </name>
+<Point><coordinates>153.313944,-28.005972,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>7. Teviot Brook near Brennan Road1 </name>
+<Point><coordinates>152.558306,-28.162139,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>8. Teviot Brook at Croftby</name>
+<Point><coordinates>152.571833,-28.156194,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>9. Amamoor Creek at Harrys Creek Road2 </name>
+<Point><coordinates>152.656028,-26.346139,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>10. Yabba Creek at Stirling Crossing</name>
+<Point><coordinates>152.627528,-26.490111,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name> 11. Yabba Creek at No. 8 Crossing</name>
+<Point><coordinates>152.591639,-26.498278,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>12. Obi Obi Creek downstream of number 2 crossing </name>
+<Point><coordinates>152.783722,-26.634028,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>13. Obi Obi Creek upstream of number 2 crossing </name>
+<Point><coordinates>152.790106,-26.639725,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>14. Mary River downstream of Walker Road</name>
+<Point><coordinates>152.746139,-26.511722,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name> 15. Six Mile Creek at Old Noosa Road </name>
+<Point><coordinates>152.809194,-26.329694,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>16. Six Mile Creek at Grahams Road</name>
+<Point><coordinates>152.864111,-26.342028,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>17. Glastonbury Creek at Greendale Road Crossing </name>
+<Point><coordinates>152.527611,-26.183528,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>18. Eudlo Creek at gauge site</name>
+<Point><coordinates>153.018139,-26.662528,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>19. Eudlo Creek upstream of Bruce Highway </name>
+<Point><coordinates>152.996361,-26.686,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>20. Reynolds Creek at Yarramalong camp ground </name>
+<Point><coordinates>152.556528,-28.011556,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>21. Reynolds Creek at downstream of Purdons Bridge </name>
+<Point><coordinates>152.569917,-28.000694,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>22. Amamoor Creek at Zachariah Lane</name>
+<Point><coordinates>152.6223,-26.3669,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>23. Glastonbury Creek at 2 km from Mary River confluence </name>
+<Point><coordinates>152.5528,-26.1544,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>24. Mary River at Moy Pocket north of quarry </name>
+<Point><coordinates>152.7395,-26.5257,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>25. Coomera River at Tucker Lane</name>
+<Point><coordinates>153.1786,-28.0561,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name> 26. Stanley River at gauge site</name>
+<Point><coordinates>152.8403,-26.8392,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>27. Burnett Creek at 2 km downstream of Maroon Dam </name>
+<Point><coordinates>152.6722,-28.1759,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>28. Burnett Creek at Splityard Creek Road</name>
+<Point><coordinates>152.6814,-28.1659,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>29. Currumbin Creek at Currumbin Valley Primary School </name>
+<Point><coordinates>153.3953,-28.2075,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>30. Currumbin Creek at Fordyce Court</name>
+<Point><coordinates>153.4167,-28.1908,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>31. Wide Bay Creek downstream of gauge 138002c </name>
+<Point><coordinates>152.4286,-26.0019,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>32. Wide Bay Creek upstream of gauge 138002c </name>
+<Point><coordinates>152.4072,-26.0047,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>33. Munna Creek at gauge 138004b</name>
+<Point><coordinates>152.3489,-25.9042,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>34. Munna Creek downstream of gauge 138004b </name>
+<Point><coordinates>152.35,-25.9014,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>35. North Maroochy River at Eumundi</name>
+<Point><coordinates>152.9544,-26.4697,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>36. North Maroochy River at North Arm-Yandina Creek Road</name>
+<Point><coordinates>152.96,-26.5231,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name> 37. Mary River at Bauple-Woolooga Road </name>
+<Point><coordinates>152.4864,-25.8861,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>38. Mary River at Orphants Road </name>
+<Point><coordinates>152.4956,-25.9533,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>39. Tinana Creek at gauge site</name>
+<Point><coordinates>152.7222,-25.82,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>40. Tinana Creek at upstream of gauge </name>
+<Point><coordinates>152.7229,-25.8356,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>41. Logan River at Running Creek Road </name>
+<Point><coordinates>152.8739,-28.2128,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>42. Logan River at upstream Tilleys Bridge </name>
+<Point><coordinates>152.8583,28.2233,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>43. Teviot Brook at Wyaralong a</name>
+<Point><coordinates>152.9014,27.8969,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>44. Teviot Brook at Wyaralong b</name>
+<Point><coordinates>152.8583,-27.9061,0</coordinates></Point>
+</Placemark>
+</Document>
+</kml>

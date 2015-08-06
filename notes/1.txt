@@ -1,0 +1,25 @@
+sort out land use issue
+- coarse scale (landuse database)
+- fine scale (study surveys?)
+- google earth?
+
+	Witte C, van den Berg D, Rowland T, O’Donnell T, Denham R, Pitt G and Simpson J 2006, Mapping land use in Queensland, Technical report on the 1999 land use map for Queensland, Department of Natural Resources, Mines and Water, Brisbane
+
+
+standardise richness by area
+- might need to look up some equation to do this with to account for non-linear relationship
+
+Check out Stein et al. 2009 as source of climate/topography/geology variables.
+
+Partial constrained correspondence analysis to work out contribution of hydrological / environmental / land use variables
+
+
+Do average trait expressions of a priori groups of species (e.g. invasives) respond differently than the rest of the community
+-CWM-RDA
+
+Is the response to the environment of a priori groups of species (e.g. invasive vs. non-invasive) related to the same traits?
+
+
+
+
+can between replicate variation be attributed to localised land use?

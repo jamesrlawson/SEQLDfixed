@@ -1,0 +1,77 @@
+dataset_ID,processed_dataset_name,original_dataset_name,dataset_description
+1,dataset_ID_1.xls,gallagher PhD vines.xls,Gallagher PhD data
+2,dataset_ID_2.xls,Duncan leaf anatomy.xls,unpublished Duncan leaf anatomy dataset Ian J Wright
+3,dataset_ID_3.xls,Laxton data.xls,"raw data from Emma Laxton's 2005 thesis, supervised by Lesley Hughes "
+5,dataset_ID_5.xls,ACACIA_paper.xls,data from Acacia paper (gallagher et al. 2011)
+4,dataset_ID_4.xls,Wright Clifford seed size data (NEWVOL).xls,Clifford seed data IJW
+6,dataset_ID_6.xls,FD_CC_traits.xls,data from 10.1111/j.1600-0587.2012.07514.x
+7,dataset_ID_7.xls,Bragg Sydney leaf size.xls,"data from Bragg, J. G. and M. Westoby (2002). ""Leaf size and foraging for light in a sclerophyll woodland."" Functional Ecology 16: 633-639."
+8,dataset_ID_8.xls,Fonseca NSW (Wright).XLS,"Fonseca, C.R., Overton, J.M., Collins, B. & Westoby, M. (2000) Shifts in trait combinations along rainfall and phosphorus gradients. Journal of Ecology 88, 964-977."
+9,dataset_ID_9.xls,Fire response register.xls,unpublished National Fire Response Register
+10,dataset_ID_10.xls,Leishman syd LHS (ian version for Tom Jan 2008).xls,data from10.1023/A:1004327224729.
+11,dataset_ID_11.xls,Wright & Henery seed mass data.xls,10.1034/j.1600-0706.2001.920309.x and 10.1007/s00442-003-1231-6
+12,dataset_ID_12.xls,WRIGHT & Niinemets(July07) subset for Rach.xls,10.1093/jxb/erp045
+13,dataset_ID_13.xls,Wright_phdData subset for Rach.xls,subset of Phd data from IJW
+14,dataset_ID_14.xls,Burrows 2007.xls,data from http://www.jstor.org/stable/10.1086/319579
+15,dataset_ID_15.xls,Goble_garratt_1981.xls,data from 10.1071/BT9810329
+16,dataset_ID_16.xls,Greg Jordan tassie cuticle data(ian).xls,dataset collected by Greg Jordan and passed on to Ian (permission required to use; permission not yet sought)
+17,dataset_ID_17.xls,Wright Clifford seed size data (NEWVOL).xls,"data measured by H. Trevor Clifford (emeritus. UQ). dataset updated at some point by Trevor. Previous version used in Wright, I. J., Clifford, H. T., Kidson, R., Reed, M. L., Rice, B. L. & Westoby, M. (2000) A survey of seed and seedling characters in 1744 Australian dicotyledon species: cross-species trait correlations and correlated trait-shifts within evolutionary lineages. Biological Journal of the Linnean Society, 69, 521-547."
+18,dataset_ID_18.xls,Harrison et al 2009 PCE SI.xls,"Supplementary data for Harrison et al 2009. Nitrogen in cell walls of sclerophyllous leaves accounts for little of the variation in photosynthetic nitrogen-use efficiency. Plant, Cell & Environment 32, 259-270."
+19,dataset_ID_19.xls,McIntyre_2005.xls,"McIntyre S, T. G. Martin, K. M. Heard and J. Kinloch Plant traits predict impact of invading species: an analysis of herbaceous vegetation in the subtropics. Australian Journal of Botany 53(8) 757–770"
+20,dataset_ID_20.xls,Zanne&WrightNSW.xls,"data collected 2007, for species from Ian's PhD sites"
+21,dataset_ID_21.xls,leaf traits_pv.xls,"SLA data for species collected from Round Hill, Trangie, Sturt NP or Condobolin"
+22,dataset_ID_22.xls,Hall 1981 Aust Rangelands J.pdf,"Hall, T. J. (1981). The nitrogen and phosphorus concentrations of some pasture species in the Dichanthium-Eulalia Grasslands of North-West Queensland. The Rangeland Journal, 3(1), 67-73."
+23,dataset_ID_23.xls,grubb et aL.xls,"DATA FROM UNPUBLISHED MS GIVEN TO IAN WRIGHT BY PETER GRUBB, 2002."
+24,dataset_ID_24.xls,KUPR.xls,The  dataset Kurpr.dbf was compiled by Lesley Hughes & Barbara Rice in 1992 & 1993
+25,dataset_ID_25.xls,nteucpr.xls,"The dataset contains information for 229 species from Eucalyptus woodland in the Alligator River region of Kakadu National Park. Data was collected by Judy Egan using the same protocols as Michelle Leishman did for WNSW.  Seed masses are dry weights for endosperm+embryo+testa; dispersal structures such as flesh, pappus, wings etc were removed before weighing."
+26,dataset_ID_26.xls,SYDPFT.xls,"The data describe species found at four fertile-soil sites and four infertile-soil sites near Sydney. For most methods and details of sites, see Westoby et al 1990."
+27,dataset_ID_27,CAUSTPR.xls,"This document describes species found at Kunnoth Paddock, Alice Springs, Central Australia. "
+28,dataset_ID_28.xls,erica.xls,westoby lab data collected by Erica from sea acres NSW and mount wellington TAS
+29,dataset_ID_29,NT_flora.xls,data transposed from Flora of the Darwin Region
+30,dataset_ID_30,height_HUW_all.xls; Huw SRIetc.xls; Huw LS and WD,data combined from three Huw Morgan datasets 
+31,dataset_ID_31,Read_WilsonsProm.xls,data from Jenny Read. Permission required. 
+32,dataset_ID_32,Extra ozglop data OCT07 (iAN).xls,OzGLOP dataset compiled by Anna Richards; cleaned by Ian Wright
+33,dataset_ID_33,SpeciesMeans141205.xls,data form Kate Hughes 
+34,dataset_ID_34,global_WD_database.xls,Global Wood Density Database from DRYAD
+35,dataset_ID_35,SpechtRundel.xls,Dark Island heath and mount lofty data from Ray Specht
+36,dataset_ID_36,Islam & Adams 1999 Trop Grass.pdf,"data from ISLAM, M., & ADAMS, M. A. (1999). Mineral content and nutritive value of native grasses and the response to added phosphorus in a Pilbara rangeland. Tropical Grasslands, 33(4), 193-200."
+37,dataset_ID_37,Islam et al 1999 Aust J Exp Ag.pdf,data from doi:10.1071/EA98133 
+38,dataset_ID_38,Denton et al. 2007 (PCE).pdf,data from 10.1111/j.1365-3040.2007.01733.x
+39,dataset_ID_39,Tng_2013.pdf,10.1371/journal.pone.0084378
+40,dataset_ID_40,lawes paper 2013 J ecol,10.1111/1365-2745.12035
+41,dataset_ID_41,tomlinson_2013,10.1111/1365-2745.12056
+42,dataset_ID_42,lusk_2013,doi:10.1093/aob/mcs289
+43,dataset_ID_43,Gleason_2012,DOI: 10.1111/j.1365-2435.2012.01962.x
+44,dataset_ID_44,Soliveres_2012,10.1016/j.ppees.2012.09.003
+45,dataset_ID_45,Butler_2011,10.1111/j.1469-8137.2011.03887.x
+46,dataset_ID_46,Knox_2011.pdf,10.1007/s11258-011-9956-5
+47,dataset_ID_47,HASSIOTOU_2009.pdf,10.1111/j.1365-3040.2009.02024.x
+48,dataset_ID_48,Pekin_2011_SM.docx,DOI: 10.1111/j.1654-1103.2011.01323.x
+49,dataset_ID_49,Aust_RF_Traits_Kooyman_original.xls,traits for all australian rainforest species collated from field and floras
+50,dataset_ID_50,schmidt data for RhysWhitleyJuly2012.xls,Compilation of data from Susanne Schmidt published in 10.1007/s00442-002-1150-y
+51,dataset_ID_51,oz_alejo.xls,"Compilation of Australian data made by Alejandro Ordonez in 2009. Conatins data from Fonseca, Cunningham, Leishman, Lamont, Duncan, Prior, Falster, Schulze, Veneklaas, Specht. Some duplication will be apparent with other already processed datasets. "
+52,dataset_ID_52,TRY_australia.xls,data from Australia in TRY database 
+53,dataset_ID_53,SID_australia.xls,seed mass data from Kew Seed Information Database 
+54,dataset_ID_54,poaceae_GrassBase.xls,traits for grasses (poaceae) compiled from multiple sources
+55,dataset_ID_55,flora of the SW.xls,ISBN-10: 0 642 56816 2 
+56,dataset_ID_56,flora Northern Aust.xls,ISBN: 9781877069246 
+57,dataset_ID_57,2014  updated plant functional trait database.xls,John Morgan datasets
+58,dataset_ID_58,eremophila.xls,Eremophila and Allied Genera by RJ Chinnock
+59,dataset_ID_59,global_WD_database.xls,Australian species from global wood density database
+60,dataset_ID_60,TAS_flora.xls,Flora of Tasmania
+61,dataset_ID_61,"Gleason Trait Data, 25-8-2011.xls",Sean Gleason field campaigns (permission needs to be sought)
+62,dataset_ID_62,jurienleafnut.xls,DOI: 10.1111/1365-2745.12196
+63,dataset_ID_63,Prior compiled.xls,Linda Prior data via Ian Wright
+64,dataset_ID_64,peeters02.xls,DOI: 10.1046/j.1095-8312.2002.00091.x
+65,dataset_ID_65,eamus1.xls,doi: 10.1093/treephys/19.10.665
+66,dataset_ID_66,eamus2.xls,doi: 10.1093/treephys/18.8-9.537
+67,dataset_ID_67,dans_data_from_ian,compilation of all Dans trait data provided by ian
+68,dataset_ID_68,GLOL_data_oz.xls,australian data from GLOL
+69,dataset_ID_69,Schortemeyer NATT data.xls,data from Northern Australian transect study
+70,dataset_ID_70,Lamont hakea-protea data(updated).xls,DOI: 10.1046/j.1365-2435.2002.00631.x (permission required)
+71,dataset_ID_71,Richards_2003.pdf,10.1016/S0006-3207(02)00245-8
+72,dataset_ID_72,AusTraits database_SV.xls,data for traits from alpine zone 
+73,dataset_ID_73,trait data for Rach.xls,data form Sean Gleason for Fowlers Gap
+74,dataset_ID_74,Rye_2013_Astartea.pdf,data from Astartea revision in Nuytsia 2013
+75,dataset_ID_75,Trudgen_2005_Astus.pdf,data from Astus revision in Nuytsia 2005
+76,dataset_ID_76,Bean_1997_Baeckea.pdf,data from Baeckea revision

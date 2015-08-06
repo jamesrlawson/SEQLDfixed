@@ -1,0 +1,13 @@
+{
+    "path" : "C:/Users/James/Desktop/stuff/data/analysis/R/SEQLD/scripts",
+    "sortOrder" : [
+        {
+            "ascending" : false,
+            "columnIndex" : 4
+        },
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

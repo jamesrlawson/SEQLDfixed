@@ -1,0 +1,11 @@
+start date: 1/10/XX, end data 30/9/2008
+seasons are: wet Nov - Apr, dry May - Oct
+not using concurrent period... or analysing complete years only, as this reduces the analysis range dramatically
+
+high spells thresholded at 5 * MDF
+low spells thresholded at 0.2 * MDF  
+spell independence is 1 day between spells, min spell length is 2 days
+
+colwells are calculated using 11 flow classes, log class size of base 2, monthly time period
+
+flood frequency uses 7 day independence between peaks
