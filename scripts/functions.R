@@ -173,7 +173,7 @@ compare.hydro <- function(df1,df2) {
 plot.linear <- function(df, var, trait) { # var is alphaT/betaT/ts/Rs, etc.
   
   
-  figureDir <- "C:/Users/James/Desktop/stuff/data/analysis/R/SEQLD/output/figures"
+  figureDir <- "C:/Users/James/Desktop/stuff/data/analysis/R/SEQLD_fixed/output/figures"
   traitDir <- deparse(substitute(trait))
   varDir <- deparse(substitute(var))
   
@@ -201,7 +201,7 @@ plot.linear <- function(df, var, trait) { # var is alphaT/betaT/ts/Rs, etc.
     
     p <- p + stat_smooth(aes(group = 1), method = "lm", formula = y ~ x, fullrange=TRUE, se=TRUE, col="black", alpha = 0.2) 
     p <- p + xlab(hydroname)
-    p <- p + ylab(c("FDis.SES"))  
+    p <- p + ylab(c("exotics"))  
     p <- p + theme_bw() 
     p <- p + theme_set(theme_bw(base_size = 18))
     p <- p + theme(legend.position = "none",
@@ -211,7 +211,7 @@ plot.linear <- function(df, var, trait) { # var is alphaT/betaT/ts/Rs, etc.
                    panel.border = element_blank(),
                    panel.grid.minor = element_blank(),
                    panel.grid.major = element_blank(),
-                   axis.line = element_line(size=.2, color = "black"))
+                   axis.line = element_line(size=.5, color = "black"))
     
     print(p)
     
@@ -224,7 +224,7 @@ plot.linear <- function(df, var, trait) { # var is alphaT/betaT/ts/Rs, etc.
 plot.quad <- function(df, var, trait, labels) { # var is alphaT/betaT/ts/Rs, etc.
   
   
-  figureDir <- "C:/Users/James/Desktop/stuff/data/analysis/R/SEQLD/output/figures"
+  figureDir <- "C:/Users/James/Desktop/stuff/data/analysis/R/SEQLD_fixed/output/figures"
   traitDir <- deparse(substitute(trait))
   varDir <- deparse(substitute(var))
   
@@ -253,7 +253,7 @@ plot.quad <- function(df, var, trait, labels) { # var is alphaT/betaT/ts/Rs, etc
     
     p <- p + stat_smooth(aes(group = 1), method = "lm", formula = y ~ x + I(x^2), se=TRUE, col="black", alpha = 0.2) 
     p <- p + xlab(hydroname)
-    p <- p + ylab(c("FDis.SES"))  
+    p <- p + ylab(c("exotics"))  
     p <- p + theme_bw() 
     p <- p + theme_set(theme_bw(base_size = 18))
     p <- p + theme(legend.position = "none",
@@ -263,7 +263,7 @@ plot.quad <- function(df, var, trait, labels) { # var is alphaT/betaT/ts/Rs, etc
                    panel.border = element_blank(),
                    panel.grid.minor = element_blank(),
                    panel.grid.major = element_blank(),
-                   axis.line = element_line(size=.2, color = "black"))
+                   axis.line = element_line(size=.5, color = "black"))
     
     print(p)
     dev.off()

@@ -1,0 +1,41 @@
+SEQLD:
+
+
+"(land use not shown in Fig 1a, "
+
+reference Greet et al. 2012 in 'flow mod causes weeds'
+
+ref Greet again and maybe Catford in the exotics bit of the discussion - basically, we didn't really find the same patterns.
+
+"Catchment land use and soil properties explained a substantial proportion of variation in exotic abundance, and may be more important drivers of invasion in this region."
+
+change "appears to compete with environmental heterogeneity as a control on riparian plant diversity in this system. " to be more like 'appears to act simultaneously' ?
+
+
+paper: Flooding disturbances increase resource availability and productivity but reduce stability in diverse plant communities (Nature)
+
+
+
+glasshouse MS:
+
+
+Tidal marsh plant responses to elevated CO2, nitrogen fertilization, and sea level rise
+
+Can elevated CO2 modify regeneration from seed banks of floating freshwater marshes subjected to rising sea-level?
+
+Jack-and-Master Trait Responses to Elevated CO2 and N: A Comparison of Native and Introduced Phragmites australis
+Thomas J. Mozdzer , J. Patrick Megonigal
+
+More contributions to the literature than I thought... See Middleton 2012 for a list... 
+
+"There is a logical expectation that elevated CO2
+could increase the growth of C3 species under stressful conditions, including anaerobic or saline environments (i.e., an interactive effect). For example, elevated CO2 offsets the effects of salinity on the biomass of S. americanus in brackish marshes (Cherry et al., 2009). C3 species of salt marshes generally had higher biomass in elevated CO2, but the response varied for species depending on water regime and/or salinity levels (Cherry et al., 2009). In other studies,C4 species did not increase growth in enhanced CO2 in any water regime or salinity level (Rozema et al., 1991; Lenssen et al., 1993). In elevated CO2, the seedlings of Taxodiumdistichum (C3), a freshwater swamp species, did not have a higher biomass in flooded conditions, but seedlings of Orontium aquaticum (C3) had higher biomass when exposed to elevated CO2 in both flooded and unflooded conditions (Megonigal et al., 2005)."
+
+Megonigal 2005:
+"elevated CO2 on any wetland plant species. Previous elevated CO2 studies on temperate and tropical hydro-phytic plant species have all been performed under flooded or saturated soil conditions (Curtis et al. 1989, Drake et al. 1996a, Baker et al. 1997, Megonigal and Schlesinger 1997, Koizumi et al.2001), and all re-"
+(don't need to worry about any of these apparently)
+
+
+
+
+So basically the deal is that there has been a bit of work done in saline systems but not so much in freshwater systems.

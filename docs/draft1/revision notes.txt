@@ -1,0 +1,69 @@
+RG:
+
+R Core Team should be 2015
+
+cut out first methods para
+
+give km2 estimate of study area
+
+add refs for functional evenness not being useful
+
+be clear that I'm not using FDiv, rather transforming FDis into a measure of functional divergence
+
+put # total species and # exotic spp. somewhere (not in traits section)
+
+make modelling section clearer re: RG comments
+
+reverse structure of results so comments on hypotheses are up front
+
+put some subheadings in the discussion
+
+The traits which do remain are clustered towards the edges of the range, producing hollowed-out community trait distributions." 
+- RG not sure about logical progression wrt this sentence
+
+Exotics part of the discussion needs trimming
+
+make comment about interactions less apologetic
+
+acknowledgements
+
+
+
+KF:
+
+consider deleting comment about rhythmicity in abstract (or making the argument more prominent in the discussion?)
+
+terrestrialisation ref (poff & zimmerman 2010 will do it)
+
+environmental homogenisation para
+
+regional setting moved out of methods
+
+KF wants a map (BOM basin maps)
+
+ref for high CV (rustomji)
+
+land use / land-use
+
+
+Other:
+
+
+"(land use not shown in Fig 1a, "
+
+reference Greet et al. 2012 in 'flow mod causes weeds'
+
+ref Greet again and maybe Catford in the exotics bit of the discussion - basically, we didn't really find the same patterns.
+
+"Catchment land use and soil properties explained a substantial proportion of variation in exotic abundance, and may be more important drivers of invasion in this region."
+
+change "appears to compete with environmental heterogeneity as a control on riparian plant diversity in this system. " to be more like 'appears to act simultaneously' ?
+
+
+paper: Flooding disturbances increase resource availability and productivity but reduce stability in diverse plant communities (Nature)
+
+
+check what I've said in the exotics section about flow modification having no effect. C_MinM and C_MinM.mod both had sig. relationships with exotics
+- ok, I wouldn't buy the C_MinM.mod relationship as its influenced by outliers, but exotics seem to increase with C_MinM.x - this doesn't really gel with things like the CVAnnBFI relationship which is much stronger though.
+
+don't use all the soil references
