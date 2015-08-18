@@ -17,7 +17,7 @@
    version="1.1"
    inkscape:version="0.48.5 r10040"
    sodipodi:docname="FRic.SES2.svg"
-   inkscape:export-filename="C:\Users\James\Desktop\stuff\data\analysis\R\SEQLD\docs\FRic.SES4.png"
+   inkscape:export-filename="C:\Users\James\Desktop\stuff\data\analysis\R\SEQLD_fixed\docs\FRic.SES6.png"
    inkscape:export-xdpi="900"
    inkscape:export-ydpi="900">
   <sodipodi:namedview
@@ -42,7 +42,9 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0" />
+     fit-margin-bottom="0"
+     showguides="true"
+     inkscape:guide-bbox="true" />
   <defs
      id="defs100588">
     <g
@@ -10163,7 +10165,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>

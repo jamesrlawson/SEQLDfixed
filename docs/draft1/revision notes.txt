@@ -14,7 +14,7 @@ put # total species and # exotic spp. somewhere (not in traits section)
 
 make modelling section clearer re: RG comments
 
-reverse structure of results so comments on hypotheses are up front
+reverse structure of results so comments on hypotheses are up front  // disagree after playing with it. The order was purposeful as disentangling the drivers was the primary aim of the modelling/
 
 put some subheadings in the discussion
 
@@ -31,8 +31,6 @@ acknowledgements
 
 KF:
 
-consider deleting comment about rhythmicity in abstract (or making the argument more prominent in the discussion?)
-
 terrestrialisation ref (poff & zimmerman 2010 will do it)
 
 environmental homogenisation para
@@ -44,6 +42,12 @@ KF wants a map (BOM basin maps)
 ref for high CV (rustomji)
 
 land use / land-use
+
+flow regime vs hydrology - use hydrology to refer to individual components
+
+pepper discussion with some more refs
+
+kill or refactor the exotics discussion
 
 
 Other:
