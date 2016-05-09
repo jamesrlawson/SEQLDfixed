@@ -1,0 +1,679 @@
+\begin{thebibliography}{}
+
+\bibitem[Adler et~al., 2013]{Adler2013}
+Adler, P.~B., Fajardo, A., Kleinhesselink, A.~R., and Kraft, N. J.~B. (2013).
+\newblock {Trait-based tests of coexistence mechanisms}.
+\newblock {\em Ecology Letters}, 16(10):1294--1306.
+
+\bibitem[Arthington et~al., 2012]{Arthington2012}
+Arthington, A., Mackay, S., James, C., Rolls, R., Sternberg, D., Barnes, A.,
+  and Capon, S. (2012).
+\newblock {Ecological limits of hydrologic alteration: a test of the ELoHA
+  framework in south-east Queensland. Waterlines Report Series No. 75}.
+\newblock {\em National Water Commission, Canberra, Australia}.
+
+\bibitem[Barton, 2012]{barton2012mumin}
+Barton, K. (2012).
+\newblock {MuMIn: multi-model inference}.
+\newblock {\em R package version}, 1(2).
+
+\bibitem[Bendix, 1997]{Bendix1997}
+Bendix, J. (1997).
+\newblock {Flood disturbance and the distribution of riparian diversity}.
+\newblock {\em Geographical Review}, 87(4):468--483.
+
+\bibitem[Bendix and Hupp, 2000]{Bendix2000}
+Bendix, J. and Hupp, C. (2000).
+\newblock {Hydrological and geomorphological impacts on riparian plant
+  communities}.
+\newblock {\em Hydrological Processes}, 14:2977--2990.
+
+\bibitem[BRS, 2002]{BRS2002}
+BRS (2002).
+\newblock {Land Use Mapping at Catchment Scale – Principles, Procedures and
+  Definitions}.
+
+\bibitem[Burnham and Anderson, 2002]{burnham2002model}
+Burnham, K.~P. and Anderson, D.~R. (2002).
+\newblock {\em {Model selection and multimodel inference: a practical
+  information-theoretic approach}}.
+\newblock Springer, New York City.
+
+\bibitem[Busby, 1991]{busby1991bioclim}
+Busby, J.~R. (1991).
+\newblock {BIOCLIM-a bioclimate analysis and prediction system}.
+\newblock {\em Plant Protection Quarterly (Australia)}.
+
+\bibitem[Cailliez, 1983]{Cailliez1983}
+Cailliez, F. (1983).
+\newblock {The analytical solution of the additive constant problem}.
+\newblock {\em Psychometrika}, 48(2):305--308.
+
+\bibitem[Callaway, 1995]{callaway1995positive}
+Callaway, R.~M. (1995).
+\newblock {Positive interactions among plants}.
+\newblock {\em The Botanical Review}, 61(4):306--349.
+
+\bibitem[Carthey et~al., 2015]{Carthey2015}
+Carthey, A. J.~R., Fryirs, K.~A., Ralph, T.~J., Bu, H., and Leishman, M.~R.
+  (2015).
+\newblock {How seed traits predict floating times: a biophysical process model
+  for hydrochorous seed transport in fluvial systems}.
+\newblock {\em Freshwater Biology}.
+
+\bibitem[Catford et~al., 2011]{Catford2011}
+Catford, J.~A., Downes, B.~J., Gippel, C.~J., and Vesk, P.~A. (2011).
+\newblock {Flow regulation reduces native plant cover and facilitates exotic
+  invasion in riparian wetlands}.
+\newblock {\em Journal of Applied Ecology}, 48(2):432--442.
+
+\bibitem[Chao, 1987]{chao1987}
+Chao, A. (1987).
+\newblock {Estimating the Population Size for Capture-Recapture Data with
+  Unequal Catchability}.
+\newblock {\em Biometrics}, 43(4):783--791.
+
+\bibitem[Chesson, 2000]{Chesson2000}
+Chesson, P. (2000).
+\newblock {Mechanisms of maintenance of species diversity}.
+\newblock {\em Annual Review of Ecology and Systematics}, 31(1):343--366.
+
+\bibitem[Cooper et~al., 2013]{Cooper2013}
+Cooper, S.~D., Lake, P.~S., Sabater, S., Melack, J.~M., and Sabo, J.~L. (2013).
+\newblock {The effects of land use changes on streams and rivers in
+  mediterranean climates}.
+\newblock {\em Hydrobiologia}, 719(1):383--425.
+
+\bibitem[Corenblit et~al., 2009]{Corenblit2009}
+Corenblit, D., Steiger, J., Gurnell, A.~M., Tabacchi, E., and Roques, L.
+  (2009).
+\newblock {Control of sediment dynamics by vegetation as a key function driving
+  biogeomorphic succession within fluvial corridors}.
+\newblock {\em Earth Surface Processes and Landforms}, 1810:1790--1810.
+
+\bibitem[Corenblit et~al., 2007]{Corenblit2007}
+Corenblit, D., Tabacchi, E., Steiger, J., and Gurnell, A.~M. (2007).
+\newblock {Reciprocal interactions and adjustments between fluvial landforms
+  and vegetation dynamics in river corridors: A review of complementary
+  approaches}.
+\newblock {\em Earth-Science Reviews}, 84(1-2):56--86.
+
+\bibitem[Cornelissen et~al., 2003]{Cornelissen2003}
+Cornelissen, J. H. C.~A., Lavorel, S.~B., Garnier, E.~B., D{\'{\i}}az, S.~C.,
+  Buchmann, N.~D., Gurvich, D. E.~C., Reich, P. B.~E., Steege, H.~F., Morgan,
+  H. D.~G., {Van Der Heijden}, M. G.~A., Pausas, J. G.~H., and Poorter, H.~I.
+  (2003).
+\newblock {A handbook of protocols for standardised and easy measurement of
+  plant functional traits worldwide}.
+\newblock {\em Australian Journal of Botany}, 51(4):335--380.
+
+\bibitem[Costanza et~al., 2011]{Costanza2011}
+Costanza, J.~K., Moody, A., and Peet, R.~K. (2011).
+\newblock {Multi-scale environmental heterogeneity as a predictor of plant
+  species richness}.
+\newblock {\em Landscape Ecology}, 26(6):851--864.
+
+\bibitem[Eastman et~al., 2011]{eastman2011spacodir}
+Eastman, J.~M., Paine, C. E.~T., and Hardy, O.~J. (2011).
+\newblock {spacodiR: structuring of phylogenetic diversity in ecological
+  communities}.
+\newblock {\em Bioinformatics}, 27(17):2437--2438.
+
+\bibitem[Falster, 2006]{Falster2006}
+Falster, D.~S. (2006).
+\newblock {Sapling strength and safety: the importance of wood density in
+  tropical forests.}
+\newblock {\em The New Phytologist}, 171(2):237--239.
+
+\bibitem[Fonseca et~al., 2000]{Fonseca2000}
+Fonseca, C.~R., Overton, J.~M., Collins, B., and Westoby, M. (2000).
+\newblock {Shifts in trait-combinations along rainfall and phosphorus
+  gradients}.
+\newblock {\em Journal of Ecology}, 88(6):964--977.
+
+\bibitem[Foster et~al., 2003]{Foster2003}
+Foster, D., Swanson, F., Aber, J., Burke, I., Brokaw, N., Tilman, D., and
+  Knapp, A. (2003).
+\newblock {The importance of land-use legacies to ecology and conservation}.
+\newblock {\em BioScience}, 53(1):77.
+
+\bibitem[Fryirs and Brierley, 2012]{fryirs2012geomorphic}
+Fryirs, K.~A. and Brierley, G.~J. (2012).
+\newblock {\em {Geomorphic analysis of river systems: an approach to reading
+  the landscape}}.
+\newblock John Wiley {\&} Sons.
+
+\bibitem[Gallagher and Leishman, 2012]{Gallagher2012a}
+Gallagher, R.~V. and Leishman, M.~R. (2012).
+\newblock {Contrasting patterns of trait-based community assembly in lianas and
+  trees from temperate Australia}.
+\newblock {\em Oikos}, 121(March):1--10.
+
+\bibitem[Gardens and Trust, 2015]{plantnet}
+Gardens, R.~B. and Trust, D. (2015).
+\newblock { PlantNET - The Plant Information Network System of The Royal
+  Botanic Gardens and Domain Trust, Sydney, Australia.
+  http://www.plantnet.rbgsyd.nsw.gov.au (accessed June 2015)}.
+
+\bibitem[Gerstner et~al., 2014]{Gerstner2014}
+Gerstner, K., Dormann, C.~F., Stein, A., Manceur, A.~M., and Seppelt, R.
+  (2014).
+\newblock {Effects of land use on plant diversity - a global meta-analysis}.
+\newblock {\em Journal of Applied Ecology}, 51(6):1690--1700.
+
+\bibitem[Gleason et~al., 2012]{Gleason2012}
+Gleason, S.~M., Butler, D.~W., Ziemińska, K., Waryszak, P., and Westoby, M.
+  (2012).
+\newblock {Stem xylem conductivity is key to plant water balance across
+  Australian angiosperm species}.
+\newblock {\em Functional Ecology}, 26(2):343--352.
+
+\bibitem[Gotelli and Rohde, 2002]{Gotelli2002}
+Gotelli, N.~J. and Rohde, K. (2002).
+\newblock {Co-occurence of ectoparasites of marine fished: a null model}.
+\newblock {\em Ecological Letters}, 5:86--94.
+
+\bibitem[Graf, 2006]{Graf2006}
+Graf, W. (2006).
+\newblock {Downstream hydrologic and geomorphic effects of large dams on
+  American rivers}.
+\newblock {\em Geomorphology}, 79(3-4):336--360.
+
+\bibitem[Hennessy et~al., 2008]{Hennessy2008}
+Hennessy, K., Fawcett, R., Kirono, D., Mpelasoka, M., Jones, D., Bathols, J.,
+  Whetton, P., {Stafford Smith}, M., Howden, M., Mitchell, C., and Plummer, N.
+  (2008).
+\newblock {An assessment of the impact of climate change on the nature and
+  frequency of exceptional climatic events. Australian Government, Bureau of
+  Meterology}.
+\newblock Technical report, Australian Government, Bureau of Meterology,
+  Canberra, Australia.
+
+\bibitem[Hillebrand and Matthiessen, 2009]{Hillebrand2009}
+Hillebrand, H. and Matthiessen, B. (2009).
+\newblock {Biodiversity in a complex world: consolidation and progress in
+  functional biodiversity research}.
+\newblock {\em Ecology Letters}, 12(12):1405--1419.
+
+\bibitem[Hughes, 1997]{Hughes1997}
+Hughes, F.~M. (1997).
+\newblock {Floodplain biogeomorphology}.
+\newblock {\em Progress in Physical Geography}, 21(4):501--529.
+
+\bibitem[Hutchinson et~al., 2014]{Hutchinson2014}
+Hutchinson, M., Kesteven, J., and Tingbao, X. (2014).
+\newblock {Monthly daily maximum temperature: ANUClimate 1.0, 0.01 degree,
+  Australian Coverage, 1976-2005. Australian National University, Canberra,
+  Australia. Obtained from http://dap.nci.org.au, made available by the
+  Ecosystem Modelling and Scaling Infrastructure}.
+
+\bibitem[Jardine et~al., 2015]{Jardine2015}
+Jardine, T.~D., Bond, N.~R., Burford, M.~A., Kennard, M.~J., Ward, D.~P.,
+  Bayliss, P., Davies, P.~M., Dougals, M.~M., Hamilton, S.~K., Melack, J.~M.,
+  Naiman, R.~J., Pettit, N.~E., Pusey, B.~J., Warfe, D., and Bunn, S.~E.
+  (2015).
+\newblock {Does flood rhythm drive ecosystem responses in tropical riverscapes
+  ?}
+\newblock {\em Ecology}, 96(3):684--692.
+
+\bibitem[Kembel et~al., 2010]{kembel2010picante}
+Kembel, S.~W., Cowan, P.~D., Helmus, M.~R., Cornwell, W.~K., Morlon, H.,
+  Ackerly, D.~D., Blomberg, S.~P., and Webb, C.~O. (2010).
+\newblock {Picante: R tools for integrating phylogenies and ecology}.
+\newblock {\em Bioinformatics}, 26(11):1463--1464.
+
+\bibitem[Kennard et~al., 2010]{Kennard2010}
+Kennard, M.~J., Pusey, B.~J., Olden, J.~D., Mackay, S.~J., Stein, J.~L., and
+  Marsh, N. (2010).
+\newblock {Classification of natural flow regimes in Australia to support
+  environmental flow management}.
+\newblock {\em Freshwater Biology}, 55(1):171--193.
+
+\bibitem[Kew, 2015]{KEWseed}
+Kew, R. B.~G. (2015).
+\newblock {Seed Information Database (SID) Version 7.1. Available from:
+  http://data.kew.org/sid/ (August 2015)}.
+
+\bibitem[Kooyman et~al., 2013]{Kooyman2013}
+Kooyman, R.~M., Rossetto, M., Sauquet, H., and Laffan, S.~W. (2013).
+\newblock {Landscape patterns in rainforest phylogenetic signal: Isolated
+  islands of refugia or structured continental distributions}.
+\newblock {\em PLoS ONE}, 8(12).
+
+\bibitem[Kraft et~al., 2015]{Kraft2015}
+Kraft, N. J.~B., Adler, P.~B., Godoy, O., James, E.~C., Fuller, S., and Levine,
+  J.~M. (2015).
+\newblock {Community assembly, coexistence and the environmental filtering
+  metaphor}.
+\newblock {\em Functional Ecology}, 29(5):592--599.
+
+\bibitem[Laanisto et~al., 2013]{Laanisto2013}
+Laanisto, L., Tamme, R., Hiiesalu, I., Szava-Kovats, R., Gazol, A., and
+  P{\"{a}}rtel, M. (2013).
+\newblock {Microfragmentation concept explains non-positive environmental
+  heterogeneity-diversity relationships}.
+\newblock {\em Oecologia}, 171(1):217--226.
+
+\bibitem[Lalibert{\'{e}} and Legendre, 2010]{Laliberte2010}
+Lalibert{\'{e}}, E. and Legendre, P. (2010).
+\newblock {A distance-based framework for measuring functional diversity from
+  multiple traits.}
+\newblock {\em Ecology}, 91(1):299--305.
+
+\bibitem[Lawson et~al., 2015a]{Lawson2015}
+Lawson, J., Fryirs, K., and Leishman, M. (2015a).
+\newblock {Hydrological conditions explain variation in wood density in
+  riparian plants of south-eastern Australia}.
+\newblock {\em Journal of Ecology}, 103(4):945--956.
+
+\bibitem[Lawson et~al., 2015b]{Lawson2015a}
+Lawson, J.~R., Fryirs, K.~a., Lenz, T., and Leishman, M.~R. (2015b).
+\newblock {Heterogeneous flows foster heterogeneous assemblages: relationships
+  between functional diversity and hydrological heterogeneity in riparian plant
+  communities}.
+\newblock {\em Freshwater Biology}, pages n/a--n/a.
+
+\bibitem[Legendre, 2007]{Legendre2007}
+Legendre, P. (2007).
+\newblock {Studying beta diversity: ecological variation partitioning by
+  multiple regression and canonical analysis}.
+\newblock {\em Journal of Plant Ecology}, 1(1):3--8.
+
+\bibitem[Leishman et~al., 2000]{Leishman2000}
+Leishman, M., Wright, I., Moles, A., and Westoby, M. (2000).
+\newblock {\em {The evolutionary ecology of seed size}}.
+\newblock CAB International, Wallingford, 2 edition.
+
+\bibitem[Lite et~al., 2005]{Lite2005}
+Lite, S., Bagstad, K., and Stromberg, J. (2005).
+\newblock {Riparian plant species richness along lateral and longitudinal
+  gradients of water stress and flood disturbance, San Pedro River, Arizona,
+  USA}.
+\newblock {\em Journal of Arid Environments}, 63(4):785--813.
+
+\bibitem[Lloyd et~al., 2004]{Lloyd2004}
+Lloyd, N., Quinn, G., Thoms, M., Arthington, P.~A., Humphries, P., and Walker,
+  K. (2004).
+\newblock {Does flow modification cause geomorphological and ecological
+  response in rivers? a literature review from an Australian perspective}.
+\newblock {\em A literature review from an Australian perspective. CRC for
+  Freshwater Ecology}, 57.
+
+\bibitem[Lundholm, 2009]{Lundholm2009}
+Lundholm, J.~T. (2009).
+\newblock {Plant species diversity and environmental heterogeneity: spatial
+  scale and competing hypotheses}.
+\newblock {\em Journal of Vegetation Science}, 20(3):377--391.
+
+\bibitem[Mackay et~al., 2014]{Mackay2014}
+Mackay, S.~J., Arthington, A.~H., and James, C.~S. (2014).
+\newblock {Classification and comparison of natural and altered flow regimes to
+  support an Australian trial of the Ecological Limits of Hydrologic Alteration
+  framework}.
+\newblock {\em Ecohydrology}, 1507(February):1485--1507.
+
+\bibitem[Mackensen et~al., 2003]{mackensen2003decomposition}
+Mackensen, J., Bauhus, J., and Webber, E. (2003).
+\newblock {Decomposition rates of coarse woody debris: a review with particular
+  emphasis on Australian tree species}.
+\newblock {\em Australian Journal of Botany}, 51(1):27--37.
+
+\bibitem[Marsh et~al., 2003]{marsh2003river}
+Marsh, N.~A., Stewardson, M.~J., and Kennard, M.~J. (2003).
+\newblock {River Analysis Package. Cooperative Research Centre for Catchment
+  Hydrology, Monash University Melbourne.}
+\newblock {\em Software Version}, 1.
+
+\bibitem[Mason et~al., 2013]{Mason2013}
+Mason, N.~W., de~Bello, F., Mouillot, D., Pavoine, S., and Dray, S. (2013).
+\newblock {A guide for using functional diversity indices to reveal changes in
+  assembly processes along ecological gradients}.
+\newblock {\em Journal of Vegetation Science}, 24(5):794--806.
+
+\bibitem[Mason et~al., 2012]{Mason2012}
+Mason, N. W.~H., Richardson, S.~J., Peltzer, D.~a., de~Bello, F., Wardle,
+  D.~a., and Allen, R.~B. (2012).
+\newblock {Changes in coexistence mechanisms along a long-term soil
+  chronosequence revealed by functional trait diversity}.
+\newblock {\em Journal of Ecology}, 100(3):678--689.
+
+\bibitem[Merritt and Poff, 2010]{Merritt2010}
+Merritt, D.~M. and Poff, N.~L. (2010).
+\newblock {Shifting dominance of riparian Populus and Tamarix along gradients
+  of flow alteration in western North American rivers}.
+\newblock {\em Ecological Applications}, 20(1):135--152.
+
+\bibitem[Mikl{\'{o}}s and Podani, 2004]{Miklos2004}
+Mikl{\'{o}}s, I. and Podani, J. (2004).
+\newblock {Randomization of presence-absence matrices: Comments and new
+  algorithms}.
+\newblock {\em Ecology}, 85(1):86--92.
+
+\bibitem[Mouchet et~al., 2010]{Mouchet2010}
+Mouchet, M.~a., Vill{\'{e}}ger, S., Mason, N. W.~H., and Mouillot, D. (2010).
+\newblock {Functional diversity measures: an overview of their redundancy and
+  their ability to discriminate community assembly rules}.
+\newblock {\em Functional Ecology}, 24(4):867--876.
+
+\bibitem[Mouillot et~al., 2011]{Mouillot2011}
+Mouillot, D., Vill{\'{e}}ger, S., Scherer-Lorenzen, M., and Mason, N. W.~H.
+  (2011).
+\newblock {Functional structure of biological communities predicts ecosystem
+  multifunctionality}.
+\newblock {\em PLoS ONE}, 6(3).
+
+\bibitem[Naiman et~al., 1993]{Naiman1993}
+Naiman, R., Decamps, H., and Pollock, M. (1993).
+\newblock {The role of riparian corridors in maintaining regional
+  biodiversity}.
+\newblock {\em Ecological Applications}, 3(2):209--212.
+
+\bibitem[Naiman et~al., 2005]{Naiman2005}
+Naiman, R.~J., Bechtold, J., Drake, D., J.J.Latterell, O’Keefe, T., and
+  Balian, E. (2005).
+\newblock {Origins, patterns, and importance of heterogeneity in riparian
+  systems}.
+\newblock {\em Ecosystem Function in Heterogeneous Landscapes}, pages 279--309.
+
+\bibitem[Nilsson and Berggren, 2000]{Nilsson2000}
+Nilsson, C. and Berggren, K. (2000).
+\newblock {Alterations of Riparian Ecosystems Caused by River Regulation}.
+\newblock {\em BioScience}, 50(9):783--792.
+
+\bibitem[Nilsson et~al., 2005]{Nilsson2005}
+Nilsson, C., Reidy, C.~a., Dynesius, M., and Revenga, C. (2005).
+\newblock {Fragmentation and flow regulation of the world's large river
+  systems.}
+\newblock {\em Science (New York, N.Y.)}, 308(5720):405--408.
+
+\bibitem[Nilsson and Svedmark, 2002]{Nilsson2002}
+Nilsson, C. and Svedmark, M. (2002).
+\newblock {Basic principles and ecological consequences of changing water
+  regimes: riparian plant communities}.
+\newblock {\em Environmental Management}, 30(4):468--480.
+
+\bibitem[Oksanen et~al., 2013]{Oksanen2013}
+Oksanen, J., Blanchet, F.~G., Kindt, R., Legendre, P., Minchin, P.~R., O'Hara,
+  R.~B., Simpson, G.~L., Solymos, P., Stevens, M. H.~H., and Wagner, H. (2013).
+\newblock {\em {vegan: Community Ecology Package}}.
+
+\bibitem[Palmer et~al., 2009]{Palmer2009}
+Palmer, M.~a., Lettenmaier, D.~P., Poff, N.~L., Postel, S.~L., Richter, B., and
+  Warner, R. (2009).
+\newblock {Climate change and river ecosystems: protection and adaptation
+  options.}
+\newblock {\em Environmental management}, 44(6):1053--68.
+
+\bibitem[Parsons et~al., 2005]{Parsons2005}
+Parsons, M., McLoughlin, C.~A., Kotschy, K.~A., Rogers, K.~H., and Rountree,
+  M.~W. (2005).
+\newblock {The effects of extreme floods on the biophysical heterogeneity of
+  river landscapes}.
+
+\bibitem[Pavoine and Bonsall, 2011]{Pavoine2011}
+Pavoine, S. and Bonsall, M.~B. (2011).
+\newblock {Measuring biodiversity to explain community assembly: a unified
+  approach}.
+\newblock {\em Biological Reviews}, 86(4):792--812.
+
+\bibitem[Penone et~al., 2014]{Penone2014}
+Penone, C., Davidson, A.~D., Shoemaker, K.~T., {Di Marco}, M., Rondinini, C.,
+  Brooks, T.~M., Young, B.~E., Graham, C.~H., and Costa, G.~C. (2014).
+\newblock {Imputation of missing data in life-history trait datasets: which
+  approach performs the best?}
+\newblock {\em Methods in Ecology and Evolution}, 5(9):961--970.
+
+\bibitem[Peres-Neto et~al., 2006]{Peres-Neto2006}
+Peres-Neto, P.~R., Legendre, P., Dray, S., and Borcard, D. (2006).
+\newblock {Variation Partitioning of Species Data Matrices: Estimation and
+  Comparison of Fractions}.
+\newblock {\em Ecology}, 87(10):2614--2625.
+
+\bibitem[Poff et~al., 1997]{Poff1997}
+Poff, N., Allan, J., and Bain, M. (1997).
+\newblock {The natural flow regime}.
+\newblock {\em BioScience}, 47(11):769--784.
+
+\bibitem[Poff et~al., 2007]{poff2007homogenization}
+Poff, N.~L., Olden, J.~D., Merritt, D.~M., and Pepin, D.~M. (2007).
+\newblock {Homogenization of regional river dynamics by dams and global
+  biodiversity implications}.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  104(14):5732--5737.
+
+\bibitem[Poff et~al., 2010]{Poff2010a}
+Poff, N.~L., Richter, B.~D., Arthington, A.~H., Bunn, S.~E., Naiman, R.~J.,
+  Kendy, E., Acreman, M., Apse, C., Bledsoe, B.~P., Freeman, M.~C., Henriksen,
+  J., Jacobson, R.~B., Kennen, J.~G., Merritt, D.~M., O'Keeffe, J.~H.,
+  Olden, J.~D., Rogers, K., Tharme, R.~E., and Warner, A. (2010).
+\newblock {The ecological limits of hydrologic alteration (ELOHA): a new
+  framework for developing regional environmental flow standards}.
+\newblock {\em Freshwater Biology}, 55(1):147--170.
+
+\bibitem[Poff and Zimmerman, 2010]{Poff2010}
+Poff, N.~L. and Zimmerman, J. K.~H. (2010).
+\newblock {Ecological responses to altered flow regimes: a literature review to
+  inform the science and management of environmental flows}.
+\newblock {\em Freshwater Biology}, 55(1):194--205.
+
+\bibitem[Pollock et~al., 1998]{Pollock1998}
+Pollock, M.~M., Naiman, R.~J., and Hanley, T.~a. (1998).
+\newblock {Plant species richness in riparian wetlands - a test of biodiversity
+  theory.}
+\newblock {\em Ecology}, 79(1):94--105.
+
+\bibitem[Preston et~al., 2006]{Preston2006}
+Preston, K.~A., Cornwell, W.~K., and Denoyer, J.~L. (2006).
+\newblock {Wood density and vessel traits as distinct correlates of ecological
+  strategy in 51 California coast range angiosperms.}
+\newblock {\em The New Phytologist}, 170(4):807--818.
+
+\bibitem[{R Core Team}, 2015]{RCoreTeam2015}
+{R Core Team} (2015).
+\newblock {\em {R: A Language and Environment for Statistical Computing}}.
+\newblock R Foundation for Statistical Computing, Vienna, Austria.
+
+\bibitem[Richardson et~al., 2007]{Richardson2007}
+Richardson, D.~M., Holmes, P.~M., Esler, K.~J., Galatowitsch, S.~M., Stromberg,
+  J.~C., Kirkman, S.~P., Pysek, P., and Hobbs, R.~J. (2007).
+\newblock {Riparian vegetation: degradation, alien plant invasions, and
+  restoration prospects}.
+\newblock {\em Diversity and Distributions}, 13(1):126--139.
+
+\bibitem[Rossel et~al., 2014a]{Rossel2014e}
+Rossel, R.~V., Chen, C., Grundy, M., Searle, R., Clifford, D., and Odgers, N.
+  (2014a).
+\newblock {Soil and Landscape Grid National Soil Attribute Maps - Available
+  Water Capacity (3" resolution) - Release 1. v3. CSIRO. Data Collection.
+  10.4225/08/546ED604ADD8A}.
+\newblock {\em CSIRO}.
+
+\bibitem[Rossel et~al., 2014b]{Rossel2014j}
+Rossel, R.~V., Chen, C., Grundy, M., Searle, R., Clifford, D., and Odgers, N.
+  (2014b).
+\newblock {Soil and Landscape Grid National Soil Attribute Maps - Bulk Density
+  - Whole Earth (3" resolution) - Release 1. v4. CSIRO. Data Collection.
+  10.4225/08/546EE212B0048}.
+\newblock {\em CSIRO}.
+
+\bibitem[Rossel et~al., 2014c]{Rossel2014i}
+Rossel, R.~V., Chen, C., Grundy, M., Searle, R., Clifford, D., and Odgers, N.
+  (2014c).
+\newblock {Soil and Landscape Grid National Soil Attribute Maps - Clay (3"
+  resolution) - Release 1. v4. CSIRO. Data Collection.
+  10.4225/08/546EEE35164BF}.
+\newblock {\em CSIRO}.
+
+\bibitem[Rossel et~al., 2014d]{Rossel2014d}
+Rossel, R.~V., Chen, C., Grundy, M., Searle, R., Clifford, D., and Odgers, N.
+  (2014d).
+\newblock {Soil and Landscape Grid National Soil Attribute Maps - Effective
+  Cation Exchange Capacity (3" resolution) - Release 1. v3. CSIRO. Data
+  Collection. 10.4225/08/546F091C11777}.
+\newblock {\em CSIRO}.
+
+\bibitem[Rossel et~al., 2014e]{Rossel2014a}
+Rossel, R.~V., Chen, C., Grundy, M., Searle, R., Clifford, D., and Odgers, N.
+  (2014e).
+\newblock {Soil and Landscape Grid National Soil Attribute Maps - Organic
+  Carbon (3" resolution) - Release 1. v1. CSIRO. Data Collection.
+  10.4225/08/547523BB0801A}.
+\newblock {\em CSIRO}.
+
+\bibitem[Rossel et~al., 2014f]{Rossel2014c}
+Rossel, R.~V., Chen, C., Grundy, M., Searle, R., Clifford, D., and Odgers, N.
+  (2014f).
+\newblock {Soil and Landscape Grid National Soil Attribute Maps - pH - CaCl2
+  (3" resolution) - Release 1. v2. CSIRO. Data Collection.
+  10.4225/08/546F17EC6AB6E}.
+\newblock {\em CSIRO}.
+
+\bibitem[Rossel et~al., 2014g]{Rossel2014}
+Rossel, R.~V., Chen, C., Grundy, M., Searle, R., Clifford, D., and Odgers, N.
+  (2014g).
+\newblock {Soil and Landscape Grid National Soil Attribute Maps - Sand (3"
+  resolution) - Release 1. v4. CSIRO. Data Collection.
+  10.4225/08/546F29646877E}.
+
+\bibitem[Rossel et~al., 2014h]{Rossel2014h}
+Rossel, R.~V., Chen, C., Grundy, M., Searle, R., Clifford, D., and Odgers, N.
+  (2014h).
+\newblock {Soil and Landscape Grid National Soil Attribute Maps - Silt (3"
+  resolution) - Release 1. v4. CSIRO. Data Collection.
+  10.4225/08/546F48D6A6D48}.
+\newblock {\em CSIRO}.
+
+\bibitem[Rossel et~al., 2014i]{Rossel2014b}
+Rossel, R.~V., Chen, C., Grundy, M., Searle, R., Clifford, D., and Odgers, N.
+  (2014i).
+\newblock {Soil and Landscape Grid National Soil Attribute Maps - Soil Depth
+  (3" resolution) - Release 1. v2. CSIRO. Data Collection.
+  10.4225/08/546F540FE10AA}.
+\newblock {\em CSIRO}.
+
+\bibitem[Rossel et~al., 2014j]{Rossel2014g}
+Rossel, R.~V., Chen, C., Grundy, M., Searle, R., Clifford, D., and Odgers, N.
+  (2014j).
+\newblock {Soil and Landscape Grid National Soil Attribute Maps - Total
+  Nitrogen (3" resolution) - Release 1. v4. CSIRO. Data Collection.
+  10.4225/08/546F564AE11F9}.
+\newblock {\em CSIRO}.
+
+\bibitem[Rossel et~al., 2014k]{Rossel2014f}
+Rossel, R.~V., Chen, C., Grundy, M., Searle, R., Clifford, D., and Odgers, N.
+  (2014k).
+\newblock {Soil and Landscape Grid National Soil Attribute Maps - Total
+  Phosphorus (3" resolution) - Release 1. v4. CSIRO. Data Collection.
+  10.4225/08/546F617719CAF}.
+\newblock {\em CSIRO}.
+
+\bibitem[Rustomji et~al., 2009]{Rustomji2009}
+Rustomji, P., Bennett, N., and Chiew, F. (2009).
+\newblock {Flood variability east of Australia’s Great Dividing Range}.
+\newblock {\em Journal of Hydrology}, 374(3-4):196--208.
+
+\bibitem[Simons et~al., 1996]{simons1996iqqm}
+Simons, M., Podger, G., and Cooke, R. (1996).
+\newblock {IQQM: a hydrologic modelling tool for water resource and salinity
+  management}.
+\newblock {\em Environmental Software}, 11(1):185--192.
+
+\bibitem[Singer, 2007]{Singer2007}
+Singer, M. (2007).
+\newblock {The influence of major dams on hydrology through the drainage
+  network of the Sacramento River basin, California}.
+\newblock {\em River Research and Applications}, 72(October 2006):55--72.
+
+\bibitem[Stein et~al., 2014]{Stein2014}
+Stein, A., Gerstner, K., and Kreft, H. (2014).
+\newblock {Environmental heterogeneity as a universal driver of species
+  richness across taxa, biomes and spatial scales}.
+\newblock {\em Ecology Letters}, 17(7):866--880.
+
+\bibitem[Stekhoven and Buhlmann, 2012]{Stekhoven2012}
+Stekhoven, D.~J. and Buhlmann, P. (2012).
+\newblock {MissForest - nonparametric missing value imputation for mixed-type
+  data}.
+\newblock {\em Bioinformatics}, 28(1):112--118.
+
+\bibitem[Stokes, 2008]{Stokes2008}
+Stokes, K.~E. (2008).
+\newblock {Exotic invasive black willow (Salix nigra) in Australia: influence
+  of hydrological regimes on population dynamics}.
+\newblock {\em Plant Ecology}, 197(1):91--105.
+
+\bibitem[Tamme et~al., 2010]{Tamme2010}
+Tamme, R., Hiiesalu, I., Laanisto, L., Szava-Kovats, R., and P{\"{a}}rtel, M.
+  (2010).
+\newblock {Environmental heterogeneity, species diversity and co-existence at
+  different spatial scales}.
+\newblock {\em Journal of Vegetation Science}, 21(4):796--801.
+
+\bibitem[Telewski, 1995]{telewski1995wind}
+Telewski, F.~W. (1995).
+\newblock {Wind-induced physiological and developmental responses in trees}.
+\newblock {\em Wind and trees}, 237:263.
+
+\bibitem[Vavrek, 2011]{vavrek2011fossil}
+Vavrek, M.~J. (2011).
+\newblock {Fossil: palaeoecological and palaeogeographical analysis tools}.
+\newblock {\em Palaeontologia Electronica}, 14(1):16.
+
+\bibitem[Vill{\'{e}}ger et~al., 2008]{Villeger2008}
+Vill{\'{e}}ger, S., Mason, N. W.~H., and Mouillot, D. (2008).
+\newblock {New multidimensional functional diversity indices for a multifaceted
+  framework in functional ecology.}
+\newblock {\em Ecology}, 89(8):2290--301.
+
+\bibitem[Violle et~al., 2007]{Violle2007}
+Violle, C., Navas, M.-L., Vile, D., Kazakou, E., Fortunel, C., Hummel, I., and
+  Garnier, E. (2007).
+\newblock {Let the concept of trait be functional!}
+\newblock {\em Oikos}, 116(5):882--892.
+
+\bibitem[Vitousek et~al., 1997]{Vitousek1997}
+Vitousek, P.~M., Mooney, H.~a., Lubchenco, J., and Melillo, J.~M. (1997).
+\newblock {Human domination of Earth's ecosystems}.
+\newblock {\em Science}, 277(5325):494--499.
+
+\bibitem[Westoby and Wright, 2006]{Westoby2006}
+Westoby, M. and Wright, I.~J. (2006).
+\newblock {Land-plant ecology on the basis of functional traits.}
+\newblock {\em Trends in Ecology {\&} Evolution}, 21(5):261--8.
+
+\bibitem[Wilford et~al., 2014]{Wilford2014}
+Wilford, J., Searle, R., Thomas, M., and Grundy, M. (2014).
+\newblock {Soil and Landscape Grid National Soil Attribute Maps - Depth of
+  Regolith (3" resolution) - Release 1. v3. CSIRO. Data Collection.
+  10.4225/08/546F06DFDFAC1}.
+\newblock {\em CSIRO}.
+
+\bibitem[Witte et~al., 2006]{witte2006mapping}
+Witte, C., den Berg, D., Rowland, T., O'Donnell, T., Denham, R., Pitt, G., and
+  Simpson, J. (2006).
+\newblock {Mapping Land Use in Queensland--Technical Report on the 1999 Land
+  Use Map for Queensland}.
+\newblock {\em Department of Natural Resources, Mines and Water, Brisbane}.
+
+\bibitem[Wright et~al., 2000]{Wright2000}
+Wright, I., Clifford, H., Kidson, R., Reed, M., Rice, B., and Westoby, M.
+  (2000).
+\newblock {A survey of seed and seedling characters in 1744 Australian
+  dicotyledon species: cross-species trait correlations and correlated
+  trait-shifts within evolutionary lineages}.
+\newblock {\em Biological Journal of the Linnean Society}, 69(4):521--547.
+
+\bibitem[Wright et~al., 2004]{Wright2004}
+Wright, I.~J., Reich, P.~B., Westoby, M., Ackerly, D.~D., Baruch, Z., Bongers,
+  F., Cavender-bares, J., Chapin, T., Cornelissen, J. H.~C., Diemer, M.,
+  Flexas, J., Garnier, E., Groom, P.~K., and Gulias, J. (2004).
+\newblock {The worldwide leaf economics spectrum}.
+\newblock {\em Nature}, 428:821--827.
+
+\bibitem[Zanne et~al., 2009]{zanne2009global}
+Zanne, A.~E., Lopez-Gonzalez, G., Coomes, D.~A., Ilic, J., Jansen, S., Lewis,
+  S.~L., Miller, R.~B., Swenson, N.~G., Wiemann, M.~C., and Chave, J. (2009).
+\newblock {Global wood density database}.
+\newblock {\em Dryad. Identifier: http://hdl. handle. net/10255/dryad}, 235.
+
+\end{thebibliography}

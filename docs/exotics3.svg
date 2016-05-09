@@ -28,13 +28,13 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.2218217"
-     inkscape:cx="322.68793"
-     inkscape:cy="320.08378"
+     inkscape:cx="374.00344"
+     inkscape:cy="312.16586"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1018"
+     inkscape:window-width="1680"
+     inkscape:window-height="988"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -21070,7 +21070,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -31616,55 +31616,7 @@
            height="16.369001"
            x="40.922501"
            y="162.92911" /></flowRegion><flowPara
-         id="flowPara145337"></flowPara></flowRoot>    <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:none"
-       id="rect145343"
-       width="9.2597046"
-       height="8.3916073"
-       x="122.40173"
-       y="284.03513"
-       transform="translate(0.23366801,19.160382)" />
-    <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:none"
-       id="rect145345"
-       width="7.8128762"
-       height="9.2597046"
-       x="303.11066"
-       y="282.87766"
-       transform="translate(0.23366801,19.160382)" />
-    <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:none"
-       id="rect145349"
-       width="8.1022415"
-       height="9.5490704"
-       x="489.31754"
-       y="282.15424"
-       transform="translate(0.23366801,19.160382)" />
-    <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:none"
-       id="rect145353"
-       width="8.2469244"
-       height="8.3916073"
-       x="685.07349"
-       y="284.32449"
-       transform="translate(0.23366801,19.160382)" />
-    <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:none"
-       id="rect145355"
-       width="10.844462"
-       height="8.1845007"
-       x="134.63503"
-       y="426.47"
-       transform="translate(0.23366801,19.160382)" />
-    <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:none"
-       id="rect145357"
-       width="10.026012"
-       height="8.5937252"
-       x="315.51248"
-       y="425.44696"
-       transform="translate(0.23366801,19.160382)" />
-    <flowRoot
+         id="flowPara145337" /></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot145359"
        style="font-size:9px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -31772,5 +31724,53 @@
            x="36.460087"
            y="165.39514"
            style="font-size:9px" /></flowRegion><flowPara
-         id="flowPara145365-84">k.)</flowPara></flowRoot>  </g>
+         id="flowPara145365-84">k.)</flowPara></flowRoot>    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect38830"
+       width="5.7291503"
+       height="6.5476003"
+       x="122.7675"
+       y="294.49493"
+       transform="translate(0.23366801,19.160382)" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect38832"
+       width="5.7291503"
+       height="6.1383753"
+       x="302.82651"
+       y="294.29034"
+       transform="translate(0.23366801,19.160382)" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect38834"
+       width="7.3660502"
+       height="6.1383753"
+       x="489.84235"
+       y="294.08572"
+       transform="translate(0.23366801,19.160382)" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect38836"
+       width="6.7522125"
+       height="7.7752752"
+       x="685.04266"
+       y="294.08572"
+       transform="translate(0.23366801,19.160382)" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect38838"
+       width="10.706534"
+       height="8.6809731"
+       x="134.55508"
+       y="436.53088"
+       transform="translate(0.23366801,19.160382)" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect38840"
+       width="10.706534"
+       height="8.9703388"
+       x="315.40869"
+       y="437.39899"
+       transform="translate(0.23366801,19.160382)" />
+  </g>
 </svg>

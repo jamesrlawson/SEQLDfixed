@@ -17,6 +17,14 @@ require(nlme)
 
 
 alldata_reduced <- read.csv("data/alldata_reduced2.csv", header=T)
+alldata_reduced$richness.stand.ln <- alldata1.naomit$richness.stand.ln
+alldata_reduced$exoticRich.ln <- alldata1.naomit$exoticRich.ln
+alldata_reduced$richness.stand.chao <- alldata1.naomit$richness.stand.chao
+alldata_reduced$richness.chao <- alldata1.naomit$richness.chao
+alldata_reduced$richness.ACE <- alldata1.naomit$richness.ACE
+alldata_reduced$gaugeID <- alldata1.naomit$gaugeID
+
+
 
 
 # order: hydrology, flow mod., land use, climate, soil, exotics
@@ -773,3 +781,131 @@ plot(FDiv.SES.varpart)
 
 
 
+
+# richness.stand.ln
+
+getAllStats(alldata_reduced, alldata_reduced$richness.stand.ln, FD)
+
+a <- lm(richness.stand.ln ~ MDFMDFDry.y, alldata_reduced)
+b <- lm(richness.stand.ln ~ MDFMDFDry.y + I(MDFMDFDry.y^2), alldata_reduced)
+AICc(a,b)
+plot(richness.stand.ln ~ clim_tcld, alldata_reduced)
+
+
+richness.stand.ln.clim.varpart <- varpart(alldata_reduced$richness.stand.ln,
+                                          ~clim_pwet,
+                                       #   ~clim_pdry,
+                                          ~clim_tcld + I(clim_tcld^2),
+                                        #  ~clim_tsea,
+                                          data = alldata_reduced)
+richness.stand.ln.clim.varpart
+
+richness.stand.ln.soil.varpart <- varpart(alldata_reduced$richness.stand.ln,
+                                          ~soil_ece,
+                                       #   ~soil_phc,
+                                          ~soil_soc,
+                                          ~soil_awc,
+                                          ~soil_bdw,
+                                        #  ~soil_pto,
+                                          data = alldata_reduced)
+richness.stand.ln.soil.varpart
+
+
+richness.stand.ln.x.varpart <- varpart(alldata_reduced$richness.stand.ln,
+                                       ~C_MinM.x,
+                                      ~M_MaxM.x + I(M_MaxM.x^2),
+                                       ~M_MinM.x,
+                                      # ~CVAnnBFI.x,
+                                          data = alldata_reduced)
+richness.stand.ln.x.varpart
+
+
+richness.stand.ln.y.varpart <- varpart(alldata_reduced$richness.stand.ln,
+                                       ~M_MaxM.y + I(M_MaxM.y^2),
+                                       ~M_MinM.y + I(M_MinM.y^2),
+                                       ~MDFMDFDry.y + I(MDFMDFDry.y^2),
+                                       data = alldata_reduced)
+richness.stand.ln.y.varpart
+
+richness.stand.ln.landuse.varpart <- varpart(alldata_reduced$richness.stand.ln,
+                                             ~production_dryland_w + I(production_dryland_w^2),
+                                             ~production_irrigated_w,
+                                       data = alldata_reduced)
+richness.stand.ln.landuse.varpart
+
+richness.stand.ln.varpart <- varpart(alldata_reduced$richness.stand.ln,
+                                 #   ~ clim_pwet + clim_tcld + I(clim_tcld^2),
+                                      ~ clim_pwet + clim_pdry,
+                                      ~ soil_ece + soil_bdw,
+                                  #   ~ C_MinM.x + M_MaxM.x + I(M_MaxM.x^2),
+                                      ~ production_dryland_w + I(production_dryland_w^2) + production_irrigated_w,
+                                  #   ~ exotics,
+                                      ~ M_MinM.y + I(M_MinM.y^2),
+                                 
+                                     data = alldata_reduced)
+richness.stand.ln.varpart
+plot(richness.stand.ln.varpart)
+
+
+#############
+
+alldata_reduced$gaugeID <- NULL
+
+getAllStats(alldata_reduced, alldata_reduced$richness.chao, FD)
+
+a <- lm(richness.chao ~ M_MinM.x, alldata_reduced)
+b <- lm(richness.chao ~ M_MinM.x + I(M_MinM.x^2), alldata_reduced)
+AICc(a,b)
+plot(richness.chao ~ CVMDFWet.y, alldata_reduced)
+summary(lm(richness.chao ~ CVMDFWet.y, alldata_reduced))
+
+richness.chao.clim.varpart <- varpart(alldata_reduced$richness.chao,
+                                      ~clim_pwet,
+                                      ~clim_pdry,
+                                      ~clim_tsea,
+                                      data = alldata_reduced)
+richness.chao.clim.varpart
+                                      
+richness.chao.soil.varpart <- varpart(alldata_reduced$richness.chao,
+                                      ~soil_ece,
+                                    #  ~soil_phc,
+                                      ~soil_soc,
+                                     # ~soil_awc,
+                                    #  ~soil_bdw,
+                                     # ~soil_slt,
+                                      data = alldata_reduced)
+richness.chao.soil.varpart
+
+richness.chao.x.varpart <- varpart(alldata_reduced$richness.chao,
+                                      ~M_MaxM.x + I(M_MaxM.x^2),
+                                      ~M_MinM.x,
+                                      #~CVAnnBFI.x,
+                                      ~C_MinM.x,
+                                      data = alldata_reduced)
+richness.chao.x.varpart
+
+exotics
+
+production_irrigated_w
+
+richness.chao.y.varpart <- varpart(alldata_reduced$richness.chao,
+                                   ~M_MinM.y,
+                                   ~CVAnnBFI.y,
+                                #   ~CVMDFWet.y,
+                                  ~ M_MaxM.y + I(M_MaxM.y^2),
+                                   data = alldata_reduced)
+richness.chao.y.varpart
+
+richness.chao.varpart <- varpart(alldata_reduced$richness.chao,
+                                 ~clim_pwet + clim_pdry + clim_tsea,
+                                 ~soil_ece + soil_soc,
+                                 ~M_MaxM.x + I(M_MaxM.x^2) + M_MinM.x + C_MinM.x,
+                                 ~M_MinM.y + CVAnnBFI.y + M_MaxM.y + I(M_MaxM.y^2),
+                                # ~exotics,
+                               #  ~production_irrigated_w,
+                                 data = alldata_reduced)
+richness.chao.varpart
+plot(richness.chao.varpart)
+
+
+                                 

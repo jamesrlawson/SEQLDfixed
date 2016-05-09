@@ -17,7 +17,7 @@ require(nlme)
 
 
 alldata_reduced <- read.csv("data/alldata_reduced2.csv", header=T)
-
+alldata_reduced$richness.stand.ln <- alldata1.naomit$richness.stand.ln
 
 #richness.stand
 
@@ -32,7 +32,34 @@ richness.stand.varpart <- varpart(alldata_reduced$richness.stand,
 richness.stand.varpart
 plot(richness.stand.varpart)
 
-   
+# richness.stand with area ln tranformed
+
+richness.stand.ln.varpart <- varpart(alldata_reduced$richness.stand.ln,
+                                     ~ C_MinM.x + M_MaxM.x + I(M_MaxM^2) + M_MinM.x,
+                                     ~ M_MinM.y + I(M_MinM.y^2) + M_MaxM.y + I(M_MaxM.y^2),
+                                    # ~ production_dryland_w + I(production_dryland_w^2) + production_irrigated_w,
+                                      ~ clim_pwet + clim_pdry,
+                                    ~ soil_ece + soil_bdw,
+                                    #    ~ exotics,
+                                     data = alldata_reduced)
+richness.stand.ln.varpart
+plot(richness.stand.ln.varpart)   
+
+# chao abundance estimated richness
+
+richness.chao.varpart <- varpart(alldata_reduced$richness.chao,
+                                 ~M_MaxM.x + I(M_MaxM.x^2) + M_MinM.x + C_MinM.x,
+                                 ~M_MinM.y + CVAnnBFI.y + M_MaxM.y + I(M_MaxM.y^2),
+                                 ~clim_pwet + clim_pdry + clim_tsea,
+                                 ~soil_ece + soil_soc,
+                                 # ~exotics,
+                                 #  ~production_irrigated_w,
+                                 data = alldata_reduced)
+richness.chao.varpart
+plot(richness.chao.varpart)
+
+
+
 
 # exotics
 
@@ -87,9 +114,4 @@ SESFDisabunswap.varpart <- varpart(alldata_reduced$FDis.SES,
                                    data= alldata_reduced)
 SESFDisabunswap.varpart
 plot(SESFDisabunswap.varpart)
-
-
-
-
-
 

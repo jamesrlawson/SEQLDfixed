@@ -9,6 +9,14 @@ svg("output/spRichness_varpart.svg", width = 6.4, height = 3, pointsize=8)
 plot(richness.stand.varpart, bg = c(gray(0.7,1)), Xnames= c('hydrology','flow mod.','climate', 'soil'), id.size = 1, alpha = 130)  
 dev.off()
 
+svg("output/spRichness_varpart_ln.svg", width = 6.4, height = 3, pointsize=8)
+plot(richness.stand.ln.varpart, bg = c(gray(0.7,1)), Xnames= c('hydrology', 'flow mod.', 'climate', 'soil'), id.size = 1, alpha = 130)  
+dev.off()
+
+svg("output/spRichness_varpart_chao.svg", width = 6.4, height = 3, pointsize=8)
+plot(richness.stand.ln.varpart, bg = c(gray(0.7,1)), Xnames= c('hydrology', 'flow mod.', 'climate', 'soil'), id.size = 1, alpha = 130)  
+dev.off()
+
 svg("output/exotics_varpart.svg", width = 6.4, height = 3, pointsize=8)
 plot(exotics.full.varpart, bg = c(gray(0.7,1)), Xnames= c('hydrology','land use','climate','soil'), id.size = 1, alpha = 130)  
 dev.off()
@@ -44,6 +52,12 @@ dev.off()
 plot.quad(alldata_reduced, alldata_reduced$richness.stand)
 plot.linear(alldata_reduced, alldata_reduced$richness.stand)
 
+plot.quad(alldata_reduced, alldata_reduced$richness.stand.ln)
+plot.linear(alldata_reduced, alldata_reduced$richness.stand.ln)
+
+plot.quad(alldata_reduced, alldata_reduced$richness.chao)
+plot.linear(alldata_reduced, alldata_reduced$richness.chao)
+
 plot.quad(alldata_reduced, alldata_reduced$FRic.SES)
 plot.linear(alldata_reduced, alldata_reduced$FRic.SES)
 
@@ -55,14 +69,21 @@ plot.linear(alldata_reduced, alldata_reduced$exotics)
 
 # regresssion stats tables #
 write.csv(getStats.linear(alldata_reduced, alldata_reduced$richness.stand, FD), "output/stats_sprich_linear.csv")
+write.csv(getStats.linear(alldata_reduced, log(alldata_reduced$richness.stand), FD), "output/stats_sprich_linear_log.csv")
 write.csv(getStats.linear(alldata_reduced, alldata_reduced$FRic.SES, FD), "output/stats_FRicSES_linear.csv")
 write.csv(getStats.linear(alldata_reduced, alldata_reduced$FDis.SES, FD), "output/stats_FDisSES_linear.csv")
 write.csv(getStats.linear(alldata_reduced, alldata_reduced$exotics, FD), "output/stats_exotics_linear.csv")
 
 write.csv(getStats.quad(alldata_reduced, alldata_reduced$richness.stand, FD), "output/stats_sprich_quad.csv")
+write.csv(getStats.quad(alldata_reduced, log(alldata_reduced$richness.stand), FD), "output/stats_sprich_quad_log.csv")
+
 write.csv(getStats.quad(alldata_reduced, alldata_reduced$FRic.SES, FD), "output/stats_FRicSES_quad.csv")
 write.csv(getStats.quad(alldata_reduced, alldata_reduced$FDis.SES, FD), "output/stats_FDisSES_quad.csv")
 write.csv(getStats.quad(alldata_reduced, alldata_reduced$exotics, FD), "output/stats_exotics_quad.csv")
+
+
+write.csv(getAllStats(alldata_reduced, alldata_reduced$richness.stand, FD), "output/allstats_richness.csv")
+write.csv(getAllStats(alldata_reduced, log(alldata_reduced$richness.stand), FD), "output/allstats_richness_ln.csv")
 
 
 hydro.pca <- prcomp(alldata_reduced[,14:31], centre=TRUE, retx = TRUE, scale=TRUE)

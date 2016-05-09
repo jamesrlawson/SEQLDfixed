@@ -60,9 +60,17 @@ FDis.SES.stats <- read.csv("data/SESFDis_stats.csv", header=TRUE)
     alldata$FunRao <- FD.redun$FunRao
     alldata$redun <- FD.redun$FunRedundancy
     alldata$nbsp <- FD$nbsp
-    alldata$richness <- richness$richness.stand.ACE
+    #alldata$richness <- richness$richness.stand.ACE
     alldata$richness.stand <- richness$richness.stand
+    alldata$richness.stand.ln <- richness$richness.stand.ln
+    alldata$richness.stand.chao <- richness$richness.stand.chao
+    alldata$richness.chao <- rich.estimated$chao
+    alldata$richness.ACE <- rich.estimated$ACE
+    
+      
     alldata$exotics <- exotics$proportionExotic
+    alldata$exoticRich.ln <- richness$exoticRich.ln
+    alldata$gaugeID <- sites$gaugeID
     
     alldata$SLA<- CWM$SLA
     alldata$seed.mass <- CWM$seed.mass
@@ -134,7 +142,7 @@ FDis.SES.stats <- read.csv("data/SESFDis_stats.csv", header=TRUE)
     alldata1$richness.stand <- alldata$richness.stand
     alldata1$FRic.SES <- hydrosites$FRic.SES
     alldata1$FDis.SES <- hydrosites$FDis.SES
-    
+   
     
     
     alldata1.naomit <- na.omit(alldata1)

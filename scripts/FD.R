@@ -91,7 +91,9 @@ richness <- ddply(vegSurveys, .(site, Taxon), summarise, sum = sum(count))
 richness$sum[richness$sum>0] <- 1 # convert counts to presabs
 richness <- ddply(richness, .(site), summarise, richness = sum(sum))
 richness$transectArea <- transectArea$transectArea
+richness$transectArea.ln <- log(richness$transectArea)
 richness$richness.stand <- richness$richness / richness$transectArea
+richness$richness.stand.ln <- richness$richness / richness$transectArea.ln
 
 vegSurveysx <- read.csv("data/vegSurveys.csv", header=T)
 rich.estimated <- rich.est(vegSurveysx)
@@ -149,6 +151,9 @@ write.csv(vegSurveys.ex1, "output/vegSurveysex.csv")
 vegSurveys.ex1 <- vegSurveys.ex
 vegSurveys.ex1$avgPerHa[vegSurveys.ex1$avgPerHa>0] <- 1 # convert counts to presabs
 exotics1 <- ddply(vegSurveys.ex1, .(site), summarise, exoticRich = sum(avgPerHa))
+
+richness$exoticRich <- exotics1$exoticRich
+richness$exoticRich.ln <- richness$exoticRich / richness$transectArea.ln
 
 # find proportion of cover for which trait data is available
 
