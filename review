@@ -1,0 +1,27 @@
+SEQLD paper review:
+
+cross-validate imputation
+play with adjusting p-values before selecting predictors for multiple regression models
+think about how to get the data published as a supp.
+read suggested references + search for some new refs
+think about how position in the river network might influence results...
+	- can I get data for this?
+should email Cassie James at some point too
+
+# imputed values are best when all other traits have values
+# could perhaps just use imputed values where all other values are filled
+# or at provide estimates of error for cases where 1, 2, 3 other values are missing
+could provide scatter plots w correlation coeff's between actual and imputed vals. Could subset by # of values missing for spp. too
+that sounds like probably the best visual representation of how well the imputation is performing
+
+Bornette, G., C. Henry, M.-H. Barrat, and C. Amoros. 1994. Theoretical habitat templets, species traits, and species richness: aquatic macrophytes in the upper Rhone River and its floodplain. Freshwater Biology 31:487-505.
+
+Dunn, R. R., R. K. Colwell, and C. Nilsson. 2006. The river domain: why are there more species halfway up the river? Ecography 29:251-259.
+
+Gurnell, A., K. Thompson, J. Goodson, and H. Moggridge. 2008. Propagule deposition along river margins: linking hydrology and ecology. Journal of Ecology 96:553-565.
+
+Katz, G. L., M. W. Denslow, and J. C. Stromberg. 2012. The Goldilocks effect: intermittent streams sustain more plant species than those with perennial or ephemeral flow. Freshwater Biology 57:467-480.
+
+Palmer, M. A., H. L. Menninger, and E. Bernhardt. 2010. River restoration, habitat heterogeneity and biodiversity: a failure of theory or practice? Freshwater Biology 55:205-222.
+
+Robertson, K. M., and C. K. Augspurger. 1999. Geomorphic processes and spatial patterns of primary forest succession on the Bogue Chitto River, USA. Journal of Ecology 87:1052-1063.

@@ -43,7 +43,7 @@ alltraits$leaf.area <- sqrt(alltraits$leaf.area)
 alltraits$seed.mass <- log10(alltraits$seed.mass)
 alltraits$flowering.duration <- sqrt(alltraits$flowering.duration)
 alltraits$maximum.height <- sqrt(alltraits$maximum.height)
-#alltraits$leaf.narrowness <- log10(alltraits$leaf.narrowness)
+alltraits$leaf.narrowness <- log10(alltraits$leaf.narrowness)
 
 # impute missing data using missForests
 
@@ -58,12 +58,23 @@ alltraits$maximum.height <- sqrt(alltraits$maximum.height)
                          "SLA",
                           "wood.density",
                          "growthForm")
-  alltraits.imputed$wood.density <- alltraits$wood.density
-#  alltraits.imputed$leaf.area <- alltraits$leaf.area
-#  alltraits.imputed$seed.mass <- alltraits$seed.mass
-#  alltraits.imputed$maximum.height <- alltraits$maximum.height
-  alltraits.imputed$growthForm <- alltraits$growthForm
 
+# first manuscript version   
+#  alltraits.imputed$wood.density <- alltraits$wood.density
+##  alltraits.imputed$leaf.area <- alltraits$leaf.area
+##  alltraits.imputed$seed.mass <- alltraits$seed.mass
+##  alltraits.imputed$maximum.height <- alltraits$maximum.height
+#  alltraits.imputed$growthForm <- alltraits$growthForm
+
+# first review version, using results from imputation_crossval.R
+  
+  #  alltraits.imputed$wood.density <- alltraits$wood.density
+    alltraits.imputed$leaf.area <- alltraits$leaf.area
+    alltraits.imputed$seed.mass <- alltraits$seed.mass
+  #  alltraits.imputed$maximum.height <- alltraits$maximum.height
+    alltraits.imputed$growthForm <- alltraits$growthForm
+    alltraits.imputed$flowering.duration <- alltraits$flowering.duration
+    
   alltraits.orig <- alltraits
   alltraits <- alltraits.imputed
   
@@ -307,7 +318,7 @@ hydrosites <- hydrosites[,-36]
 
 #hydrositesz <- hydrosites[,-36]
 
-getStats(hydrositesz, hydrosites$FDis, FD)
+getStats(hydrosites, hydrosites$FDis, FD)
 getStats(hydrositesz, hydrosites$FDiv, FD)
 getStats(hydrositesz, hydrosites$FRic, FD)
 getStats(hydrositesz, hydrosites$FEve, FD)
