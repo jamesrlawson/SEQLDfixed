@@ -70,6 +70,8 @@ zep.stats.FDis$FDis.SES <- (zep.stats.FDis$FDis - zep.stats.FDis$mean) / zep.sta
 
 zep.stats.FDis
 
+write.csv(zep.stats.FDis, 'output/zep.stats.FDis_some_imputed.csv')
+
 ############ SESFRic ##########
 
 nullFD.trialswap <- replicate(999, dbFD(alltraits, 
@@ -122,6 +124,8 @@ zep.stats.FRic$FRic.orig <- FD$FRic
 zep.stats.FRic$FRic.SES <- (zep.stats.FRic$FRic - zep.stats.FRic$mean) / zep.stats.FRic$sd
 
 zep.stats.FRic
+
+write.csv(zep.stats.FRic, 'output/zep.stats.FRic_some_imputed.csv')
 
 ############ SESFRic independent swap ##########
 

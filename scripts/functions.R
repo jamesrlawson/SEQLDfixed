@@ -4,6 +4,12 @@ library(reshape)
 library(FD)
 library(ggplot2)
 
+library(FD)
+library(missForest)
+library(mice)
+library(SYNCSA)
+library(fossil)
+
 trim <- function(x) {
   gsub('\\s+', '',x)
 }
@@ -306,9 +312,9 @@ getStats <- function(df, var, trait) {
     
     colnames(x) <- c("metric", "pval.linear", "r2.linear", "pval.quad", "r2.quad")
     
-    if (pval.quad < 0.05) { 
+    #if (pval.quad < 0.05) { 
       y <- rbind(x,y)
-    }
+    #}
     
   }
   
@@ -316,6 +322,8 @@ getStats <- function(df, var, trait) {
   
   y$padj.linear <- p.adjust(y$pval.linear, method="BH")
   y$padj.quad <- p.adjust(y$pval.quad, method="BH")
+  
+  y <- y[order(y$pval.quad),]
   
   write.csv(y, sprintf("%s/%s_stats.csv", statsDir, var))
   

@@ -43,7 +43,6 @@ alltraits$leaf.area <- sqrt(alltraits$leaf.area)
 alltraits$seed.mass <- log10(alltraits$seed.mass)
 alltraits$flowering.duration <- sqrt(alltraits$flowering.duration)
 alltraits$maximum.height <- sqrt(alltraits$maximum.height)
-alltraits$leaf.narrowness <- log10(alltraits$leaf.narrowness)
 
 # impute missing data using missForests
 
@@ -68,12 +67,26 @@ alltraits$leaf.narrowness <- log10(alltraits$leaf.narrowness)
 
 # first review version, using results from imputation_crossval.R
   
-  #  alltraits.imputed$wood.density <- alltraits$wood.density
+#  #  alltraits.imputed$wood.density <- alltraits$wood.density
+#    alltraits.imputed$leaf.area <- alltraits$leaf.area
+#    alltraits.imputed$seed.mass <- alltraits$seed.mass
+#  #  alltraits.imputed$maximum.height <- alltraits$maximum.height
+#    alltraits.imputed$growthForm <- alltraits$growthForm
+#    alltraits.imputed$flowering.duration <- alltraits$flowering.duration
+#  #  alltraits.imputed$SLA <- alltraits$SLA
+    
+    
+    
+    # no imputed values
+    
+    alltraits.imputed$wood.density <- alltraits$wood.density
     alltraits.imputed$leaf.area <- alltraits$leaf.area
     alltraits.imputed$seed.mass <- alltraits$seed.mass
-  #  alltraits.imputed$maximum.height <- alltraits$maximum.height
+    alltraits.imputed$maximum.height <- alltraits$maximum.height
     alltraits.imputed$growthForm <- alltraits$growthForm
     alltraits.imputed$flowering.duration <- alltraits$flowering.duration
+    alltraits.imputed$SLA <- alltraits$SLA
+    
     
   alltraits.orig <- alltraits
   alltraits <- alltraits.imputed
@@ -115,7 +128,6 @@ richness$richness.stand.boot <- rich.estimated$bootstrap / richness$transectArea
 richness$richness.stand.jack <- rich.estimated$jacknife / richness$transectArea
 
 
-
 # include only species with more than X occurrences at any site
 
 #vegSurveys$site <- as.factor(vegSurveys$site)
@@ -155,9 +167,7 @@ vegSurveys.ex <- subset(vegSurveys, source == "exotic")
 exotics <- ddply(vegSurveys.ex, .(site), summarise, proportionExotic = sum(avgPerHa) / totalcover)
 exotics <- unique(exotics)
 
-hydrosites$exotics <- exotics$proportionExotic
-
-write.csv(vegSurveys.ex1, "output/vegSurveysex.csv")
+#hydrosites$exotics <- exotics$proportionExotic
 
 vegSurveys.ex1 <- vegSurveys.ex
 vegSurveys.ex1$avgPerHa[vegSurveys.ex1$avgPerHa>0] <- 1 # convert counts to presabs
@@ -280,17 +290,6 @@ hydrosites$FunRao <- FD.redun$FunRao
 hydrosites$redun <- FD.redun$FunRedundancy
 hydrosites$nbsp <- FD$nbsp
 
-#hydrosites$g1 <- FD$gr.abun$group1
-#hydrosites$g2 <- FD$gr.abun$group2
-#hydrosites$g3 <- FD$gr.abun$group3
-#hydrosites$g4 <- FD$gr.abun$group4
-#hydrosites$g5 <- FD$gr.abun$group5
-#hydrosites$g6 <- FD$gr.abun$group6
-#hydrosites$g7 <- FD$gr.abun$group7
-#hydrosites$g8 <- FD$gr.abun$group8
-#hydrosites$FGR <- FD$FGR
-
-
 #hydrosites$richness <- richness$richness.stand.ACE
 hydrosites$richness <- richness$richness.stand
 hydrosites$exotics <- exotics$proportionExotic
@@ -305,103 +304,8 @@ hydrosites$wood.density <- CWM$wood.density
 hydrosites$leaf.area <- CWM$leaf.area
 #hydrosites$leaf.narrowness<- CWM$leaf.narrowness
 
-
-hydrosites_imputed <- hydrosites
-
-FRic.SES.stats <- read.csv("data/SESFRic_stats1.csv", header=TRUE)
-FDis.SES.stats <- read.csv("data/SESFDis_stats.csv", header=TRUE)
-
-hydrosites$FRic.SES <- FRic.SES.stats$FRic.SES
-hydrosites$FDis.SES <- FDis.SES.stats$FDis.SES
-
 hydrosites <- hydrosites[,-36]
 
-#hydrositesz <- hydrosites[,-36]
-
-getStats(hydrosites, hydrosites$FDis, FD)
-getStats(hydrositesz, hydrosites$FDiv, FD)
-getStats(hydrositesz, hydrosites$FRic, FD)
-getStats(hydrositesz, hydrosites$FEve, FD)
-#getStats(hydrosites, hydrosites$RaoQ, FD)
-#getStats(hydrosites, hydrosites$nbsp, FD)
-
-#getStats(hydrosites, hydrosites$richness, FD)
-
-getAllStats(hydrositesz, hydrosites$FDis.SES, FD)
-getStats(hydrositesz, hydrositesz$FDiv.SES, FD)
-getStats(hydrositesz, hydrositesz$FEve.SES, FD)
-getStats(hydrositesz, hydrositesz$FRic.SES, FD)
-
-
-
-#getStats(hydrosites, hydrosites$simpson, FD)
-#getStats(hydrosites, hydrosites$FunRao, FD)
-#getStats(hydrosites, hydrosites$redun, FD)
-#getStats(hydrosites, hydrosites$richness, FD)
-#getStats(hydrosites, hydrosites$exotics, FD)
-
-getStats(hydrositesz, hydrosites$SLA, CWM)
-getStats(hydrositesz, hydrosites$seed.mass, CWM)
-getStats(hydrositesz, hydrosites$maximum.height, CWM)
-getStats(hydrositesz, hydrosites$flowering.duration, CWM)
-getStats(hydrositesz, hydrosites$wood.density, CWM)
-getStats(hydrositesz, hydrosites$leaf.area, CWM)
-#getStats(hydrositesz, hydrosites$leaf.narrowness, CWM)
-
-
-
-#plot.linear(hydrosites, hydrosites$FDis, FD)
-#plot.linear(hydrosites, hydrosites$FRic, FD)
-#plot.linear(hydrosites, hydrosites$FEve, FD)
-
-#plot.quad(hydrosites, hydrosites$FDis, FD)
-#plot.quad(hydrosites, hydrosites$FRic, FD)
-#plot.quad(hydrosites, hydrosites$FEve, FD)
-
-#alltraitssp <- read.csv("data/alltraits.csv", header=T)
-
-#g1 <- subset(FD.spfgr, FD.spfgr == 1)
-#g1.traits <- alltraitssp[alltraitssp$Taxon %in% g1$species,]
-#g1.means <- colMeans(g1.traits[,3:8], na.rm=TRUE)
-
-#g2 <- subset(FD.spfgr, FD.spfgr == 2)
-#g2.traits <- alltraitssp[alltraitssp$Taxon %in% g2$species,]
-#g2.means <- colMeans(g2.traits[,3:8], na.rm=TRUE)
-
-#g3 <- subset(FD.spfgr, FD.spfgr == 3)
-#g3.traits <- alltraitssp[alltraitssp$Taxon %in% g3$species,]
-#g3.means <- colMeans(g3.traits[,3:8], na.rm=TRUE)
-
-#g4 <- subset(FD.spfgr, FD.spfgr == 4)
-#g4.traits <- alltraitssp[alltraitssp$Taxon %in% g4$species,]
-#g4.means <- colMeans(g4.traits[,3:8], na.rm=TRUE)
-
-#g5 <- subset(FD.spfgr, FD.spfgr == 5)
-#g5.traits <- alltraitssp[alltraitssp$Taxon %in% g5$species,]
-#g5.means <- colMeans(g5.traits[,3:8], na.rm=TRUE)
-
-#g6 <- subset(FD.spfgr, FD.spfgr == 6)
-#g6.traits <- alltraitssp[alltraitssp$Taxon %in% g6$species,]
-#g6.means <- colMeans(g6.traits[,3:8], na.rm=TRUE)
-
-#g7 <- subset(FD.spfgr, FD.spfgr == 7)
-#g7.traits <- alltraitssp[alltraitssp$Taxon %in% g7$species,]
-#g7.means <- colMeans(g7.traits[,3:8], na.rm=TRUE)
-
-#group.means <- rbind(g1.means, g2.means, g3.means, g4.means, g5.means, g6.means, g7.means)
-#group.means
-
-#getStats(hydrositesz, hydrositesz$g1, FD)
-#getStats(hydrositesz, hydrositesz$g2, FD)
-#getStats(hydrositesz, hydrositesz$g3, FD)
-#getStats(hydrositesz, hydrositesz$g4, FD)
-#getStats(hydrositesz, hydrositesz$g5, FD)
-#getStats(hydrositesz, hydrositesz$g6, FD)
-#getStats(hydrositesz, hydrositesz$g7, FD)
-
-#getStats(hydrositesz, hydrositesz$FGR, FD)
-
-#FD.spfgr <- as.data.frame(FD$spfgr)
-#FD.spfgr$species <- rownames(FD.spfgr)
+getAllStats(alldata_reduced, alldata_reduced$FDis.SES, FD)   
 
 
