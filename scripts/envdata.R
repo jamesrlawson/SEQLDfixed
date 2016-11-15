@@ -62,6 +62,7 @@ hydrosites <- merge(hydro, sites, all.y=TRUE, by = c("gaugeID"))
 
 # add climate and soil variables
     
+    # crop to desired vars
     climate <- climate[,c('site', 'clim_pdry','clim_psea','clim_pwet','clim_tcld','clim_tsea','clim_twrm',
                           'soil_awc', 'soil_bdw', 'soil_cly', "soil_der", "soil_des","soil_ece", "soil_nto", "soil_phc",
                           "soil_pto",  "soil_slt",  "soil_snd",  "soil_soc")]

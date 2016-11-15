@@ -76,7 +76,6 @@ alltraits$maximum.height <- sqrt(alltraits$maximum.height)
 #  #  alltraits.imputed$SLA <- alltraits$SLA
     
     
-    
     # no imputed values
     
     alltraits.imputed$wood.density <- alltraits$wood.density
@@ -249,63 +248,5 @@ FD <- dbFD(alltraits,
 
 FD.redun <- rao.diversity(abun, traits=alltraits)
 
-
-
-
-# trait correlations
-
-#cor(alltraits)
-#alltraits.pca <- prcomp(alltraits, center=TRUE, scale=TRUE, retx=TRUE)
-#summary(alltraits.pca)
-
-
-# hydrological gradient analysis
-
-#hydro <- subset(hydro, gaugeID != c("138001A"))
-
-
-hydro.pca <- prcomp(hydro[,3:36], retx = TRUE, center = TRUE, scale = TRUE)
-hydro$hydro.pc1 <- hydro.pca$x[,1]
-hydro$hydro.pc2 <- hydro.pca$x[,2]
-hydro$hydro.pc3 <- hydro.pca$x[,3]
-hydro$hydro.pc4 <- hydro.pca$x[,4]
-
-
-hydrosites <- merge(hydro, sites, all.y=TRUE, by = c("gaugeID"))
-hydrosites <- hydrosites[order(hydrosites$site),]
-siteNums <- hydrosites$site
-hydrosites <- cbind(hydrosites[,3:41])
-
-
-hydrosites$site <- siteNums
-hydrosites$FDis <- FD$FDis
-hydrosites$FDiv <- FD$FDiv
-hydrosites$FRic <- FD$FRic
-hydrosites$FEve <- FD$FEve
-hydrosites$RaoQ <- FD$RaoQ
-hydrosites$FGR <- FD$FGR
-hydrosites$nbsp <- FD$nbsp
-hydrosites$simpson <- FD.redun$Simpson
-hydrosites$FunRao <- FD.redun$FunRao
-hydrosites$redun <- FD.redun$FunRedundancy
-hydrosites$nbsp <- FD$nbsp
-
-#hydrosites$richness <- richness$richness.stand.ACE
-hydrosites$richness <- richness$richness.stand
-hydrosites$exotics <- exotics$proportionExotic
-
-CWM <- FD$CWM
-
-hydrosites$SLA<- CWM$SLA
-hydrosites$seed.mass <- CWM$seed.mass
-hydrosites$maximum.height <- CWM$maximum.height
-hydrosites$flowering.duration <- CWM$flowering.duration
-hydrosites$wood.density <- CWM$wood.density
-hydrosites$leaf.area <- CWM$leaf.area
-#hydrosites$leaf.narrowness<- CWM$leaf.narrowness
-
-hydrosites <- hydrosites[,-36]
-
-getAllStats(alldata_reduced, alldata_reduced$FDis.SES, FD)   
 
 
