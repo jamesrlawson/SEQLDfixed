@@ -14,7 +14,7 @@ library(fossil)
 
 alltraits <- read.csv("data/alltraits.csv", header=T)
 sites <- read.csv("data/sites.csv", header=T)
-vegSurveys <- read.csv("data/vegSurveys.csv", header=T)
+vegSurveys <- read.csv("data/vegSurveys2.csv", header=T)
 hydro <- read.csv("data/hydro_1975-2008.csv", header=T)
 source_GF <- read.csv("data/source_growthForm1.csv", header=T)
 
@@ -118,7 +118,7 @@ richness$transectArea.ln <- log(richness$transectArea)
 richness$richness.stand <- richness$richness / richness$transectArea
 richness$richness.stand.ln <- richness$richness / richness$transectArea.ln
 
-vegSurveysx <- read.csv("data/vegSurveys.csv", header=T)
+vegSurveysx <- read.csv("data/vegSurveys2.csv", header=T)
 rich.estimated <- rich.est(vegSurveysx)
 
 richness$richness.stand.chao <- rich.estimated$chao / richness$transectArea
@@ -249,4 +249,7 @@ FD <- dbFD(alltraits,
 FD.redun <- rao.diversity(abun, traits=alltraits)
 
 
+FDis <- data.frame(FDis = FD$FDis, site = 1:44)
 
+
+FDis <- merge(FDis, sites, all.y = TRUE)

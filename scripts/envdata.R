@@ -42,6 +42,9 @@ hydro <- hydro[,hydrovars]
 
 hydrosites <- merge(hydro, sites, all.y=TRUE, by = c("gaugeID"))
 
+ # temp: merge in FDis
+  #hydrosites <- merge(hydrosites, FDis, by = c('site', 'gaugeID')
+
 # add functional diversity numbers and richness
     
     hydrosites <- hydrosites[order(hydrosites$site),]
@@ -56,7 +59,7 @@ hydrosites <- merge(hydro, sites, all.y=TRUE, by = c("gaugeID"))
     hydrosites$FDis.SES <- FDis.SES.stats$FDis.SES
     hydrosites$FRic.SES <- FRic.SES.stats$FRic.SES
     
-    vegSurveysx <- read.csv("data/vegSurveys.csv", header=T)
+    vegSurveysx <- read.csv("data/vegSurveys2.csv", header=T)
     hydrosites$richness.chao <- rich.est(vegSurveysx)$chao
     
 
@@ -127,16 +130,16 @@ hydrosites <- merge(hydro, sites, all.y=TRUE, by = c("gaugeID"))
     
 # save and check out regressions    
     
-write.csv(alldata1.naomit, "output/alldata1naomity.csv")
+#write.csv(alldata1.naomit, "output/alldata1naomity.csv")
     
 alldata_reduced <- select(alldata1.naomit, -gaugeID)
     
-write.csv(alldata_reduced, "data/alldata_reduced_noimp.csv")
+#write.csv(alldata_reduced, "data/alldata_reduced_noimp.csv")
 
 
-   getStats(alldata_reduced, alldata_reduced$FDis.SES, FD)   
-   getStats(alldata_reduced, alldata_reduced$FRic.SES, FD)
-   getStats(alldata_reduced, alldata_reduced$richness.chao, FD)
-   
+getStats(alldata_reduced, alldata_reduced$FDis.SES, FD)   
+getStats(alldata_reduced, alldata_reduced$FRic.SES, FD)
+getStats(alldata_reduced, alldata_reduced$richness.chao, FD)
+#getStats(alldata_reduced, alldata_reduced$FDis, FD)
 
           

@@ -7,7 +7,7 @@ require(plyr)
 
 ############ SESFDis ##########
 
-source('FD.R')
+source('scripts/FD.R')
 
 nozeros <- function(df) {
   
@@ -72,7 +72,7 @@ zep.stats.FDis$FDis.SES <- (zep.stats.FDis$FDis - zep.stats.FDis$mean) / zep.sta
 
 zep.stats.FDis
 
-write.csv(zep.stats.FDis, 'data/zep.stats.FDis_some_imputed.csv')
+write.csv(zep.stats.FDis, 'data/zep.stats.FDis_some_imputed1.csv')
 
 ############ SESFRic ##########
 
@@ -127,7 +127,7 @@ zep.stats.FRic$FRic.SES <- (zep.stats.FRic$FRic - zep.stats.FRic$mean) / zep.sta
 
 zep.stats.FRic
 
-write.csv(zep.stats.FRic, 'data/zep.stats.FRic_some_imputed.csv')
+write.csv(zep.stats.FRic, 'data/zep.stats.FRic_some_imputed1.csv')
 
 ############ SESFRic independent swap ##########
 
