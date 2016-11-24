@@ -249,7 +249,7 @@ FD <- dbFD(alltraits,
 FD.redun <- rao.diversity(abun, traits=alltraits)
 
 
-FDis <- data.frame(FDis = FD$FDis, site = 1:44)
+#FDis <- data.frame(FDis = FD$FDis, site = 1:44)
 
 
-FDis <- merge(FDis, sites, all.y = TRUE)
+#FDis <- merge(FDis, sites, all.y = TRUE)
