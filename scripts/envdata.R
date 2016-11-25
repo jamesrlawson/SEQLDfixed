@@ -43,7 +43,8 @@ hydro <- hydro[,hydrovars]
 hydrosites <- merge(hydro, sites, all.y=TRUE, by = c("gaugeID"))
 
  # temp: merge in FDis
-  #hydrosites <- merge(hydrosites, FDis, by = c('site', 'gaugeID')
+ # source('scripts/FD.R')
+ # hydrosites <- merge(hydrosites, FDis, by = c('site', 'gaugeID')
 
 # add functional diversity numbers and richness
     
@@ -51,8 +52,8 @@ hydrosites <- merge(hydro, sites, all.y=TRUE, by = c("gaugeID"))
 
     #FRic.SES.stats <- read.csv("data/SESFRic_stats1.csv", header=TRUE)
     #FDis.SES.stats <- read.csv("data/SESFDis_stats.csv", header=TRUE)
-    FDis.SES.stats <- read_csv('output/zep.stats.FDis_no_imputed.csv')
-    FRic.SES.stats <- read_csv('output/zep.stats.FRic_no_imputed.csv')
+    FDis.SES.stats <- read_csv('data/zep.stats.FDis_no_imputed1.csv')
+    FRic.SES.stats <- read_csv('data/zep.stats.FRic_no_imputed1.csv')
     #FDis.SES.stats <- read_csv('output/zep.stats.FDis_some_imputed.csv')
     #FRic.SES.stats <- read_csv('output/zep.stats.FRic_some_imputed.csv')
     
@@ -130,16 +131,13 @@ hydrosites <- merge(hydro, sites, all.y=TRUE, by = c("gaugeID"))
     
 # save and check out regressions    
     
-#write.csv(alldata1.naomit, "output/alldata1naomity.csv")
+write.csv(alldata1.naomit, "output/alldata1naomity.csv")
     
 alldata_reduced <- select(alldata1.naomit, -gaugeID)
     
-#write.csv(alldata_reduced, "data/alldata_reduced_noimp.csv")
+write.csv(alldata_reduced, "data/alldata_reduced_noimp1.csv")
 
 
-getStats(alldata_reduced, alldata_reduced$FDis.SES, FD)   
-getStats(alldata_reduced, alldata_reduced$FRic.SES, FD)
-getStats(alldata_reduced, alldata_reduced$richness.chao, FD)
-#getStats(alldata_reduced, alldata_reduced$FDis, FD)
-
-          
+getStats(alldata_reduced, alldata_reduced$FDis.SES, FD, remove = c('richness.chao', 'FDis.SES', 'FRic.SES', 'site'))   
+getStats(alldata_reduced, alldata_reduced$FRic.SES, FD, remove = c('richness.chao', 'FDis.SES', 'FRic.SES', 'site'))
+getStats(alldata_reduced, alldata_reduced$richness.chao, FD, remove = c('richness.chao', 'FDis.SES', 'FRic.SES', 'site'))

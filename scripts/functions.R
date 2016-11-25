@@ -277,7 +277,7 @@ plot.quad <- function(df, var, trait, labels) { # var is alphaT/betaT/ts/Rs, etc
 }
 
 
-getStats <- function(df, var, trait) {
+getStats <- function(df, var, trait, remove) {
   
   # create / set output directory
   
@@ -313,12 +313,14 @@ getStats <- function(df, var, trait) {
     colnames(x) <- c("metric", "pval.linear", "r2.linear", "pval.quad", "r2.quad")
     
     #if (pval.quad < 0.05) { 
-      y <- rbind(x,y)
+    y <- rbind(x,y)
     #}
     
   }
   
   var <- deparse(substitute(var))
+  
+  y <- y[!y$metric %in% remove,]
   
   y$padj.linear <- p.adjust(y$pval.linear, method="BH")
   y$padj.quad <- p.adjust(y$pval.quad, method="BH")
